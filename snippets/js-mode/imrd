@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: imrd
+# key: imrd
+# --
+import ReactDOM from 'react-dom'`(if (eolp) (es7-snippets-semicolon))`

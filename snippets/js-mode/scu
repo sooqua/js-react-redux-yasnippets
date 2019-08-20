@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Invoked before rendering when new props or state are being received
+# key: scu
+# --
+shouldComponentUpdate(nextProps, nextState) {
+ $0
+}`(es7-snippets-semicolon)`

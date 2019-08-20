@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Displays a message in the console and also includes a stack trace from where the method was called
+# key: cer
+# --
+console.error(${object})`(if (eolp) (es7-snippets-semicolon))`

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: An object taking on a particular shape required
+# key: ptshr
+# --
+PropTypes.shape({
+ $0
+}).isRequired,

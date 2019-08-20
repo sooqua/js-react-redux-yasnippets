@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Is an instance of a class prop type
+# key: pti
+# --
+PropTypes.instanceOf($1),

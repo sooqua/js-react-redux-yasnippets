@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Access component's props
+# key: props
+# --
+this.props.$0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Displays a message in the console
+# key: clg
+# --
+console.log($0)`(if (eolp) (es7-snippets-semicolon))`

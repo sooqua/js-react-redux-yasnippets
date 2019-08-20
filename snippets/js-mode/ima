@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ima
+# key: ima
+# --
+import { ${2:originalName} as ${3:alias} } from '${1:module}'`(if (eolp) (es7-snippets-semicolon))`

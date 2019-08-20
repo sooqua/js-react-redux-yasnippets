@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Func prop type required
+# key: ptfr
+# --
+PropTypes.func.isRequired,

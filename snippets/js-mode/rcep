@@ -1,0 +1,22 @@
+# -*- mode: snippet -*-
+# name: Creates a React component class with ES7 module system
+# key: rcep
+# --
+import React, { Component } from 'react'`(es7-snippets-semicolon)`
+import PropTypes from 'prop-types'`(es7-snippets-semicolon)`
+
+export class ${1:`(es7-snippets-filename-base)`} extends Component {
+ static propTypes = {
+
+ }`(es7-snippets-semicolon)`
+
+ render() {
+  return (
+   <div>
+    $0
+   </div>
+  )`(es7-snippets-semicolon)`
+ }
+}
+
+export default $1`(es7-snippets-semicolon)`

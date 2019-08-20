@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: React element prop type required
+# key: ptelr
+# --
+PropTypes.element.isRequired,

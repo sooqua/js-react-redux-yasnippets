@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Executes the given function after the specified delay in ES7 syntax
+# key: sto
+# --
+setTimeout(() => {
+ $0
+}, ${delayInMS})`(es7-snippets-semicolon)`

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Creates and assigns a local variable using object destructing
+# key: dob
+# --
+const {${propertyName}} = ${objectToDescruct}`(es7-snippets-semicolon)`

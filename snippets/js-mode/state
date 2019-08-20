@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: state
+# key: state
+# --
+this.state.$0

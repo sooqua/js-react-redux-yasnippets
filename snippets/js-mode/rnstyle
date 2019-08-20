@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: rnstyle
+# key: rnstyle
+# --
+const styles = StyleSheet.create({
+ $0
+})`(es7-snippets-semicolon)`

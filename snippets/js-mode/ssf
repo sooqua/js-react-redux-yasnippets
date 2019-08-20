@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Performs a shallow merge of nextState into current state
+# key: ssf
+# --
+this.setState((state, props) => { return { $0 }})`(es7-snippets-semicolon)`

@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: useLayoutEffect
+# key: useLayoutEffect
+# --
+useLayoutEffect(() => {
+    ${effect}
+    return () => {
+        ${cleanup}
+    }`(es7-snippets-semicolon)`
+}, [${input}])`(es7-snippets-semicolon)`

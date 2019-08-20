@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Invoked immediately after the component's updates are flushed to the DOM
+# key: cdup
+# --
+componentDidUpdate(prevProps, prevState) {
+ $0
+}

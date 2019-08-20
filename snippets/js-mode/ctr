@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Prints a stack trace from the point where the method was called
+# key: ctr
+# --
+console.trace(${object})`(if (eolp) (es7-snippets-semicolon))`

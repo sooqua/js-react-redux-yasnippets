@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Any prop type
+# key: ptany
+# --
+PropTypes.any,

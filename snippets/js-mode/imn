@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: imn
+# key: imn
+# --
+import '${module}'`(if (eolp) (es7-snippets-semicolon))`

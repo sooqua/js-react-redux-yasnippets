@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Prints a JavaScript representation of the specified object
+# key: cdi
+# --
+console.dir(${object})`(if (eolp) (es7-snippets-semicolon))`

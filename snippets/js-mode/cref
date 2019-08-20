@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Create ref statement used inside constructor
+# key: cref
+# --
+this.${refName}Ref = React.createRef()`(if (eolp) (es7-snippets-semicolon))`

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: An object that could be one of many types
+# key: ptet
+# --
+PropTypes.oneOfType([
+ $0
+]),

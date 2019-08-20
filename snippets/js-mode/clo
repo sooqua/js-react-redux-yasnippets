@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Logs property with name
+# key: clo
+# --
+console.log('${1:object}', $1)`(if (eolp) (es7-snippets-semicolon))`

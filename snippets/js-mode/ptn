@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Number prop type
+# key: ptn
+# --
+PropTypes.number,

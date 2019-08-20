@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Binds this to a method
+# key: bnd
+# --
+this.${1:methodName} = this.$1.bind(this)`(if (eolp) (es7-snippets-semicolon))`

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Create React context
+# key: rcontext
+# --
+const ${contextName} = React.createContext()`(if (eolp) (es7-snippets-semicolon))`

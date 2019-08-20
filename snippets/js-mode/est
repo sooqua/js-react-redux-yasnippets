@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Creates empty state object. To be used in a constructor
+# key: est
+# --
+state = {
+ $0
+}`(es7-snippets-semicolon)`

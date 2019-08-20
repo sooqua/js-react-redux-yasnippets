@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: useMemo
+# key: useMemo
+# --
+useMemo(() => ${function}, ${input})`(if (eolp) (es7-snippets-semicolon))`

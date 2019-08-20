@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Console time wrapper
+# key: ctm
+# --
+console.time('$0')`(if (eolp) (es7-snippets-semicolon))`

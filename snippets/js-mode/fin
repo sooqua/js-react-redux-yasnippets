@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Iterating over property values of iterable objects
+# key: fin
+# --
+for(let ${item} in ${object}) {
+ $0
+}

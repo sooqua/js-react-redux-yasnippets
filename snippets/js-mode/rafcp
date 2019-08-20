@@ -1,0 +1,20 @@
+# -*- mode: snippet -*-
+# name: Creates a React Arrow Function Component with ES7 module system with PropTypes
+# key: rafcp
+# --
+import React from 'react'`(es7-snippets-semicolon)`
+import PropTypes from 'prop-types'`(es7-snippets-semicolon)`
+
+const ${1:`(es7-snippets-filename-base)`} = props => {
+ return (
+  <div>
+   $0
+  </div>
+ )`(es7-snippets-semicolon)`
+}
+
+$1.propTypes = {
+
+}
+
+export default $1`(es7-snippets-semicolon)`

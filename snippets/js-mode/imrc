@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: imrc
+# key: imrc
+# --
+import React, { Component } from 'react'`(if (eolp) (es7-snippets-semicolon))`

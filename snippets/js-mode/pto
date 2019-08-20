@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Object prop type
+# key: pto
+# --
+PropTypes.object,

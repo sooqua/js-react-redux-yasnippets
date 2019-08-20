@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: impt
+# key: impt
+# --
+import PropTypes from 'prop-types'`(if (eolp) (es7-snippets-semicolon))`

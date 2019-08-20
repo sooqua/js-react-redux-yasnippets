@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Export named function in ES7 syntax
+# key: enf
+# --
+export const ${functionName} = (${params}) => {
+ $0
+}`(es7-snippets-semicolon)`

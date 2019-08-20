@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: useEffect
+# key: useEffect
+# --
+useEffect(() => {
+ ${effect}
+ return () => {
+  ${cleanup}
+ }`(es7-snippets-semicolon)`
+}, [${input}])`(es7-snippets-semicolon)`

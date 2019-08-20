@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Writes the the number of times that count() has been invoked at the same line and with the same label
+# key: cco
+# --
+console.count(${label})`(if (eolp) (es7-snippets-semicolon))`

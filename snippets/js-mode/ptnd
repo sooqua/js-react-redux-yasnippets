@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Anything that can be rendered: numbers, strings, elements or an array
+# key: ptnd
+# --
+PropTypes.node,

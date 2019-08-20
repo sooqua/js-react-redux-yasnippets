@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Forward ref statement used inside component
+# key: fref
+# --
+const ref = React.createRef()`(if (eolp) (es7-snippets-semicolon))`

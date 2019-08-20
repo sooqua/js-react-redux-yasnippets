@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Closes out the corresponding console.group()
+# key: cge
+# --
+console.groupEnd()`(if (eolp) (es7-snippets-semicolon))`

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: React element prop type
+# key: ptel
+# --
+PropTypes.element,

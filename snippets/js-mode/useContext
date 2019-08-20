@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: useContext
+# key: useContext
+# --
+const ${context} = useContext(${contextValue})`(if (eolp) (es7-snippets-semicolon))`

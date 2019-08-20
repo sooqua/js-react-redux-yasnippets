@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ptypes
+# key: ptypes
+# --
+static propTypes = {
+ $0
+}

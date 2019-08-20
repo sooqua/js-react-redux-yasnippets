@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: rncs
+# key: rncs
+# --
+import React, { Component } from 'react'`(es7-snippets-semicolon)`
+import { Text, StyleSheet, View } from 'react-native'`(es7-snippets-semicolon)`
+
+export default class ${`(es7-snippets-filename-base)`} extends Component {
+ render() {
+  return (
+   <View>
+    <Text> ${0:textInComponent} </Text>
+   </View>
+  )`(es7-snippets-semicolon)`
+ }
+}
+
+const styles = StyleSheet.create({})`(es7-snippets-semicolon)`

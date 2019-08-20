@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: imrpc
+# key: imrpc
+# --
+import React, { PureComponent } from 'react'`(if (eolp) (es7-snippets-semicolon))`

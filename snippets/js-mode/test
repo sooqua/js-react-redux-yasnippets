@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Testing `test` block
+# key: test
+# --
+test('should $1', () => {
+ $0
+})`(es7-snippets-semicolon)`

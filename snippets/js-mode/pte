@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: Prop type limited to specific values by treating it as an enum
+# key: pte
+# --
+PropTypes.oneOf(['$1']),

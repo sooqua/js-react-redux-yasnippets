@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Export default function in ES7 syntax
+# key: edf
+# --
+export default (${params}) => {
+ $0
+}`(es7-snippets-semicolon)`

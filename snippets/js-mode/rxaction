@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: rxaction
+# key: rxaction
+# --
+export const ${actionName} = (payload) => ({
+ type: ${type},
+ payload
+})`(es7-snippets-semicolon)`

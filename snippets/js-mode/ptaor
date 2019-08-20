@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: An array of a certain type required
+# key: ptaor
+# --
+PropTypes.arrayOf($1).isRequired,

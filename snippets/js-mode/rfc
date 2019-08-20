@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: Creates a React Functional Component with ES7 module system
+# key: rfc
+# --
+import React from 'react'`(es7-snippets-semicolon)`
+
+export default function ${`(es7-snippets-filename-base)`}() {
+ return (
+  <div>
+   $0
+  </div>
+ )`(es7-snippets-semicolon)`
+}

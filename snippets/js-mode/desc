@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Testing `describe` block
+# key: desc
+# --
+describe('$1', () => {
+ $0
+})`(es7-snippets-semicolon)`

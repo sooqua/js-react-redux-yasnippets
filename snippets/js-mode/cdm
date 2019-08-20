@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Invoked once, only on the client (not on the server), immediately after the initial rendering occurs
+# key: cdm
+# --
+componentDidMount() {
+ $0
+}

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Executes the given function at specified intervals in ES7 syntax
+# key: sti
+# --
+setInterval(() => {
+ $0
+}, ${intervalInMS})`(es7-snippets-semicolon)`

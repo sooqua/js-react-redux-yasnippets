@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: expgql
+# key: expgql
+# --
+export default compose(
+    graphql(${2:queryOrMutation}, { name: ${3:name} }),
+)($1)`(es7-snippets-semicolon)`

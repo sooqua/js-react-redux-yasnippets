@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: rxselect
+# key: rxselect
+# --
+import { createSelector } from 'reselect'`(es7-snippets-semicolon)`
+
+export const ${selectorName} = state => state.${selector}`(es7-snippets-semicolon)`

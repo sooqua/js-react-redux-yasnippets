@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: exp
+# key: exp
+# --
+export default $1`(if (eolp) (es7-snippets-semicolon))`

@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# name: rnce
+# key: rnce
+# --
+import React, { Component } from 'react'`(es7-snippets-semicolon)`
+import { Text, View } from 'react-native'`(es7-snippets-semicolon)`
+
+export class ${1:`(es7-snippets-filename-base)`} extends Component {
+ render() {
+  return (
+   <View>
+    <Text> ${0:textInComponent} </Text>
+   </View>
+  )`(es7-snippets-semicolon)`
+ }
+}
+
+export default $1`(es7-snippets-semicolon)`

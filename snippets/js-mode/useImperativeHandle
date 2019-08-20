@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: useImperativeHandle
+# key: useImperativeHandle
+# --
+useImperativeHandle(
+ ${ref},
+ () => {
+  ${handler}
+ },
+ [${input}],
+)`(es7-snippets-semicolon)`

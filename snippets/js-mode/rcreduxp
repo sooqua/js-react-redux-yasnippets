@@ -1,0 +1,31 @@
+# -*- mode: snippet -*-
+# name: Creates a React component class with PropTypes with connected redux and ES7 module system
+# key: rcreduxp
+# --
+import React, { Component } from 'react'`(es7-snippets-semicolon)`
+import PropTypes from 'prop-types'`(es7-snippets-semicolon)`
+import { connect } from 'react-redux'`(es7-snippets-semicolon)`
+
+export class ${1:`(es7-snippets-filename-base)`} extends Component {
+ static propTypes = {
+  ${2:prop}: ${3:PropTypes},
+ }`(es7-snippets-semicolon)`
+
+ render() {
+  return (
+   <div>
+    $0
+   </div>
+  )`(es7-snippets-semicolon)`
+ }
+}
+
+const mapStateToProps = (state) => ({
+
+})`(es7-snippets-semicolon)`
+
+const mapDispatchToProps = {
+
+}`(es7-snippets-semicolon)`
+
+export default connect(mapStateToProps, mapDispatchToProps)($1)`(es7-snippets-semicolon)`

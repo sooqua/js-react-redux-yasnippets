@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: reduxmap
+# key: reduxmap
+# --
+const mapStateToProps = (state) => ({
+ $0
+})`(es7-snippets-semicolon)`
+
+const mapDispatchToProps = {
+
+}`(es7-snippets-semicolon)`

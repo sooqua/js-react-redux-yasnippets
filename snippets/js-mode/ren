@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: Basic render
+# key: ren
+# --
+render() {
+ return (
+  <div>
+   $0
+  </div>
+ )`(es7-snippets-semicolon)`
+}

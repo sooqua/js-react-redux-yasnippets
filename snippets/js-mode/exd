@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: exd
+# key: exd
+# --
+export { $2 } from '${1:module}'`(if (eolp) (es7-snippets-semicolon))`

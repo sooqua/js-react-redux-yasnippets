@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: imrn
+# key: imrn
+# --
+import { ${moduleName} } from 'react-native'`(if (eolp) (es7-snippets-semicolon))`
