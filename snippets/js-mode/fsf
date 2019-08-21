@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: Creates a stateless React component as a named function with FlowTypes
+# key: fsf
+# --
+// @flow
+import * as React from 'react'`(es7-snippets-semicolon)`
+type Props = {
+ $0
+}`(es7-snippets-semicolon)`
+export function ${`(es7-snippets-filename-base)`}(props: Props) {
+ return (
+  <div>
+
+  </div>
+ )`(es7-snippets-semicolon)`
+}`(es7-snippets-semicolon)`

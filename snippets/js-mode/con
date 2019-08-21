@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: Adds a default constructor for the class that contains props as arguments
+# key: con
+# --
+constructor(props) {
+ super(props)`(es7-snippets-semicolon)`
+ $0
+}

@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: Creates a React component class with ES7 module system
+# name: Creates a React component class with ES6 module system
 # key: rce
 # --
 import React, { Component } from 'react'`(es7-snippets-semicolon)`

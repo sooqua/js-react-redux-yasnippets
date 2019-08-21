@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: Creates empty propTypes declaration
+# key: rpt
+# --
+${`(es7-snippets-filename-base)`}.propTypes = {
+ $0
+}`(es7-snippets-semicolon)`

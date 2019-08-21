@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: Creates a React component class with ES6 module system
+# key: rcjc                              
+# --
+class ${`(es7-snippets-filename-base)`} extends Component {
+ render() {
+  return (
+   <div>
+    $0
+   </div>
+  )`(es7-snippets-semicolon)`
+ }
+}

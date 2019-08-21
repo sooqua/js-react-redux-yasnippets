@@ -1,0 +1,15 @@
+# -*- mode: snippet -*-
+# name: Creates a React pure component class with PropTypes and ES6 module system
+# key: rsc
+# --
+import React from 'react'`(es7-snippets-semicolon)`
+
+const ${1:`(es7-snippets-filename-base)`} = () => {
+ return (
+  <div>
+   $0
+  </div>
+ )`(es7-snippets-semicolon)`
+}`(es7-snippets-semicolon)`
+
+export default $1`(es7-snippets-semicolon)`

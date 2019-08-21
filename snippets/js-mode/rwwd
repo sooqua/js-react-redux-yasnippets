@@ -1,0 +1,26 @@
+# -*- mode: snippet -*-
+# name: Creates a React component class with constructor, empty state, proptypes and export in ES6 module system without imports
+# key: rwwd
+# --
+class ${1:`(es7-snippets-filename-base)`} extends React.Component {
+ constructor(props) {
+  super(props)`(es7-snippets-semicolon)`
+
+  this.state = {}`(es7-snippets-semicolon)`
+
+ }
+
+ render() {
+  return (
+   <div>
+    $0
+   </div>
+  )`(es7-snippets-semicolon)`
+ }
+}
+
+$1.propTypes = {
+
+}`(es7-snippets-semicolon)`
+
+export default $1`(es7-snippets-semicolon)`

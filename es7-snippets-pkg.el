@@ -4,7 +4,7 @@
 
 ;; Author: EQuimper
 ;; Keywords: lisp
-;; Version: 0.0.1
+;; Version: 0.0.2
 ;; Url: https://github.com/sooqua/es7-snippets
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -25,7 +25,7 @@
 ;; ES7 Snippets
 
 ;;; Code:
-(define-package "es7-snippets" "0.0.1"
+(define-package "es7-snippets" "0.0.2"
 "ES7 Yasnippets"
 '((yasnippet "0.7.0")
   (emacs "24.4")))

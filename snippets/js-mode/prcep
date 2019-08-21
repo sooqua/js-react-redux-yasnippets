@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-# name: Creates a React component class with ES7 module system
-# key: rcep
+# name: Creates a React component class with ESNext class fields
+# key: prcep
 # --
 import React, { Component } from 'react'`(es7-snippets-semicolon)`
 import PropTypes from 'prop-types'`(es7-snippets-semicolon)`

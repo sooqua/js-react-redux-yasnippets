@@ -1,15 +1,11 @@
 # -*- mode: snippet -*-
-# name: Creates a React component class with ES7 module system
-# key: rpcp
+# name: Creates a React pure component class with PropTypes and ES6 module system
+# key: rncp
 # --
 import React, { PureComponent } from 'react'`(es7-snippets-semicolon)`
 import PropTypes from 'prop-types'`(es7-snippets-semicolon)`
 
-export default class ${`(es7-snippets-filename-base)`} extends PureComponent {
- static propTypes = {
-
- }`(es7-snippets-semicolon)`
-
+class ${1:`(es7-snippets-filename-base)`} extends PureComponent {
  render() {
   return (
    <div>
@@ -18,3 +14,9 @@ export default class ${`(es7-snippets-filename-base)`} extends PureComponent {
   )`(es7-snippets-semicolon)`
  }
 }
+
+$1.propTypes = {
+
+}`(es7-snippets-semicolon)`
+
+export default $1`(es7-snippets-semicolon)`

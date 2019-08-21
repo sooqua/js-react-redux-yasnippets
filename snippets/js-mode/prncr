@@ -1,8 +1,9 @@
 # -*- mode: snippet -*-
-# name: Creates a React component class with PropTypes with connected redux and ES7 module system
-# key: rcreduxp
+# name: Creates a React Native component class with PropTypes with connected redux and ESNext class fields
+# key: prncr
 # --
 import React, { Component } from 'react'`(es7-snippets-semicolon)`
+import { View, Text } from 'react-native'`(es7-snippets-semicolon)`
 import PropTypes from 'prop-types'`(es7-snippets-semicolon)`
 import { connect } from 'react-redux'`(es7-snippets-semicolon)`
 
@@ -13,9 +14,9 @@ export class ${1:`(es7-snippets-filename-base)`} extends Component {
 
  render() {
   return (
-   <div>
-    $0
-   </div>
+   <View>
+    <Text> $2 </Text>
+   </View>
   )`(es7-snippets-semicolon)`
  }
 }

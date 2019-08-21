@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: Creates a stateless React component as a named function without PropTypes
+# key: rsf
+# --
+import React from 'react'`(es7-snippets-semicolon)`
+
+function ${1:`(es7-snippets-filename-base)`}(props) {
+ return (
+  <div>
+
+  </div>
+ )`(es7-snippets-semicolon)`
+
+
+export default $1(props) {
+ return (
+  <div>
+
+  </div>
+ )`(es7-snippets-semicolon)`
+`(es7-snippets-semicolon)`

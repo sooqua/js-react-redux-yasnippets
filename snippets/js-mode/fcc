@@ -1,0 +1,21 @@
+# -*- mode: snippet -*-
+# name: Creates a React component class with FlowTypes
+# key: fcc
+# --
+// @flow
+import * as React from 'react'`(es7-snippets-semicolon)`
+type Props = {
+ $0
+}`(es7-snippets-semicolon)`
+type State = {
+ $1
+}`(es7-snippets-semicolon)`
+export class ${2:`(es7-snippets-filename-base)`} extends React.Component<Props, State>{
+ render() {
+  return (
+   <div>
+
+   </div>
+  )`(es7-snippets-semicolon)`
+ }`(es7-snippets-semicolon)`
+}`(es7-snippets-semicolon)`

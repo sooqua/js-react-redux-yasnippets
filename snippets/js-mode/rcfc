@@ -1,0 +1,55 @@
+# -*- mode: snippet -*-
+# name: Creates a React component class with PropTypes and all lifecycle methods and ES6 module system
+# key: rcfc
+# --
+import React, { Component } from 'react'`(es7-snippets-semicolon)`
+import PropTypes from 'prop-types'`(es7-snippets-semicolon)`
+
+class ${1:`(es7-snippets-filename-base)`} extends Component {
+ constructor(props) {
+  super(props)`(es7-snippets-semicolon)`
+
+ }
+
+ componentWillMount() {
+
+ }
+
+ componentDidMount() {
+
+ }
+
+ componentWillReceiveProps(nextProps) {
+
+ }
+
+ shouldComponentUpdate(nextProps, nextState) {
+
+ }
+
+ componentWillUpdate(nextProps, nextState) {
+
+ }
+
+ componentDidUpdate(prevProps, prevState) {
+
+ }
+
+ componentWillUnmount() {
+
+ }
+
+ render() {
+  return (
+   <div>
+
+   </div>
+  )`(es7-snippets-semicolon)`
+ }
+}
+
+$1.propTypes = {
+
+}`(es7-snippets-semicolon)`
+
+export default $1`(es7-snippets-semicolon)`
