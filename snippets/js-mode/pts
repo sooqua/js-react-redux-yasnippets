@@ -2,4 +2,4 @@
 # name: String prop type
 # key: pts
 # --
-PropTypes.string,
+PropTypes.string,$0

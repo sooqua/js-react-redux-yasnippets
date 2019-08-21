@@ -2,4 +2,4 @@
 # name: Any prop type
 # key: ptany
 # --
-PropTypes.any,
+PropTypes.any,$0

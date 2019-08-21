@@ -2,4 +2,4 @@
 # name: Object prop type
 # key: pto
 # --
-PropTypes.object,
+PropTypes.object,$0

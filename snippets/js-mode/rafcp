@@ -15,6 +15,6 @@ const ${1:`(es7-snippets-filename-base)`} = props => {
 
 $1.propTypes = {
 
-}
+}`(es7-snippets-semicolon)`
 
 export default $1`(es7-snippets-semicolon)`

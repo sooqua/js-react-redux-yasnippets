@@ -2,4 +2,4 @@
 # name: Array prop type required
 # key: ptar
 # --
-PropTypes.array.isRequired,
+PropTypes.array.isRequired,$0

@@ -2,4 +2,4 @@
 # name: Is an instance of a class prop type required
 # key: ptir
 # --
-PropTypes.instanceOf($1).isRequired,
+PropTypes.instanceOf($1).isRequired,$0

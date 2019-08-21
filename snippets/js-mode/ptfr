@@ -2,4 +2,4 @@
 # name: Func prop type required
 # key: ptfr
 # --
-PropTypes.func.isRequired,
+PropTypes.func.isRequired,$0

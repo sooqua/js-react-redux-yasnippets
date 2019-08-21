@@ -6,10 +6,10 @@ import React from 'react'`(es7-snippets-semicolon)`
 import PropTypes from 'prop-types'`(es7-snippets-semicolon)`
 
 export default (WrappedComponent) => {
- const hocComponent = ({ ...props }) => <WrappedComponent {...props} />
+ const hocComponent = ({ ...props }) => <WrappedComponent {...props} />`(es7-snippets-semicolon)`
 
  hocComponent.propTypes = {
- }
+ }`(es7-snippets-semicolon)`
 
  return hocComponent`(es7-snippets-semicolon)`
 }

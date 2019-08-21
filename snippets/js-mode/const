@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: const
+# key: const
+# --
+const ${1:name} = $0`(es7-snippets-semicolon)`

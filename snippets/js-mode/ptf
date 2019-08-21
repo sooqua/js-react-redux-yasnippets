@@ -2,4 +2,4 @@
 # name: Func prop type
 # key: ptf
 # --
-PropTypes.func,
+PropTypes.func,$0

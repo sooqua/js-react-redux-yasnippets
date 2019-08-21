@@ -2,4 +2,4 @@
 # name: React element prop type
 # key: ptel
 # --
-PropTypes.element,
+PropTypes.element,$0

@@ -4,6 +4,6 @@
 # --
 function mapDispatchToProps(dispatch) {
  return {
- }
-
+  $0
+ }`(es7-snippets-semicolon)`
 }

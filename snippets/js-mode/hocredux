@@ -15,10 +15,10 @@ export const mapDispatchToProps = {
 }`(es7-snippets-semicolon)`
 
 export const ${1:hocComponentName} = (WrappedComponent) => {
- const hocComponent = ({ ...props }) => <WrappedComponent {...props} />
+ const hocComponent = ({ ...props }) => <WrappedComponent {...props} />`(es7-snippets-semicolon)`
 
  hocComponent.propTypes = {
- }
+ }`(es7-snippets-semicolon)`
 
  return hocComponent`(es7-snippets-semicolon)`
 }

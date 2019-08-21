@@ -2,4 +2,4 @@
 # name: Bool prop type required
 # key: ptbr
 # --
-PropTypes.bool.isRequired,
+PropTypes.bool.isRequired,$0

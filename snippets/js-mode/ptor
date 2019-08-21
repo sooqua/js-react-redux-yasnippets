@@ -2,4 +2,4 @@
 # name: Object prop type required
 # key: ptor
 # --
-PropTypes.object.isRequired,
+PropTypes.object.isRequired,$0

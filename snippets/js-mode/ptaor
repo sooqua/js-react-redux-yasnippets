@@ -2,4 +2,4 @@
 # name: An array of a certain type required
 # key: ptaor
 # --
-PropTypes.arrayOf($1).isRequired,
+PropTypes.arrayOf($1).isRequired,$0

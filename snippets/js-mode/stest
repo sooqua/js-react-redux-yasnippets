@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: stest
-# key: stest
+# key: stest                       
 # --
 import React from 'react'`(es7-snippets-semicolon)`
 import renderer from 'react-test-renderer'`(es7-snippets-semicolon)`

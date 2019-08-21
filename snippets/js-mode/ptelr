@@ -2,4 +2,4 @@
 # name: React element prop type required
 # key: ptelr
 # --
-PropTypes.element.isRequired,
+PropTypes.element.isRequired,$0

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: ptypes
-# key: ptypes
+# key: ptypes                 
 # --
 static propTypes = {
  $0

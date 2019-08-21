@@ -2,4 +2,4 @@
 # name: String prop type required
 # key: ptsr
 # --
-PropTypes.string.isRequired,
+PropTypes.string.isRequired,$0

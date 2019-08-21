@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a React Functional Component with ES7 module system
 # key: rfc
+# uuid: rfc
 # --
 import React from 'react'`(es7-snippets-semicolon)`
 
