@@ -55,7 +55,7 @@
 (defun es7-snippets-filename-base ()
   (interactive)
   (when (buffer-file-name)
-    (file-name-base (buffer-file-name))))
+    (capitalize (file-name-base (buffer-file-name)))))
 
 ;;;###autoload
 (with-eval-after-load 'yasnippet
