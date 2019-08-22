@@ -2,19 +2,19 @@
 # name: Creates a React component class with ESNext class fields
 # key: prpcp
 # --
-import React, { PureComponent } from 'react'`(es7-snippets-semicolon)`
-import PropTypes from 'prop-types'`(es7-snippets-semicolon)`
+import React, { PureComponent } from 'react'`(js-react-redux-yasnippets-semicolon)`
+import PropTypes from 'prop-types'`(js-react-redux-yasnippets-semicolon)`
 
-export default class ${`(es7-snippets-filename-base)`} extends PureComponent {
+export default class ${`(js-react-redux-yasnippets-filename-base)`} extends PureComponent {
  static propTypes = {
 
- }`(es7-snippets-semicolon)`
+ }`(js-react-redux-yasnippets-semicolon)`
 
  render() {
   return (
    <div>
     $0
    </div>
-  )`(es7-snippets-semicolon)`
+  )`(js-react-redux-yasnippets-semicolon)`
  }
 }

@@ -4,4 +4,4 @@
 # --
 const styles = StyleSheet.create({
  $0
-})`(es7-snippets-semicolon)`
+})`(js-react-redux-yasnippets-semicolon)`

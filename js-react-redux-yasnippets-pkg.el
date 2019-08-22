@@ -1,11 +1,11 @@
-;;; es7-snippets-pkg.el --- ES7 Yasnippets -*- lexical-binding: t; -*-
+;;; js-react-redux-yasnippets-pkg.el --- JavaScript,React,Redux yasnippets -*- lexical-binding: t; -*-
 ;; Copyright (C) 2017-2019 EQuimper
 ;; Copyright (C) 2019 sooqua
 
 ;; Author: EQuimper
 ;; Keywords: lisp
 ;; Version: 0.0.2
-;; Url: https://github.com/sooqua/es7-snippets
+;; Url: https://github.com/sooqua/js-react-redux-yasnippets
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -22,11 +22,11 @@
 
 ;;; Commentary:
 
-;; ES7 Snippets
+;; JavaScript,React,Redux yasnippets
 
 ;;; Code:
-(define-package "es7-snippets" "0.0.2"
-"ES7 Yasnippets"
+(define-package "js-react-redux-yasnippets" "0.0.2"
+"JavaScript,React,Redux yasnippets"
 '((yasnippet "0.7.0")
   (emacs "24.4")))
-;;; es7-snippets-pkg.el ends here
+;;; js-react-redux-yasnippets-pkg.el ends here

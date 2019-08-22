@@ -2,4 +2,4 @@
 # name: Console time wrapper
 # key: ctm
 # --
-console.time('$0')`(if (eolp) (es7-snippets-semicolon))`
+console.time('$0')`(if (eolp) (js-react-redux-yasnippets-semicolon))`

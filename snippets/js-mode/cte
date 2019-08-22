@@ -2,4 +2,4 @@
 # name: Console time end wrapper
 # key: cte
 # --
-console.timeEnd('$0')`(if (eolp) (es7-snippets-semicolon))`
+console.timeEnd('$0')`(if (eolp) (js-react-redux-yasnippets-semicolon))`

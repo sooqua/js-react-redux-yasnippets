@@ -2,4 +2,4 @@
 # name: Creates and assigns a local variable using array destructing
 # key: dar
 # --
-const [${propertyName}] = ${arrayToDescruct}`(if (eolp) (es7-snippets-semicolon))`
+const [${propertyName}] = ${arrayToDescruct}`(if (eolp) (js-react-redux-yasnippets-semicolon))`

@@ -2,4 +2,4 @@
 # name: useReducer
 # key: useReducer
 # --
-const [state, dispatch] = useReducer(${reducer}, ${initialState}, ${init})`(if (eolp) (es7-snippets-semicolon))`
+const [state, dispatch] = useReducer(${reducer}, ${initialState}, ${init})`(if (eolp) (js-react-redux-yasnippets-semicolon))`

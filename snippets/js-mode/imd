@@ -2,4 +2,4 @@
 # name: imd
 # key: imd
 # --
-import { $2 } from '${1:module}'`(if (eolp) (es7-snippets-semicolon))`
+import { $2 } from '${1:module}'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

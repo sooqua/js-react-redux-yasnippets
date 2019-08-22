@@ -2,4 +2,4 @@
 # name: imn
 # key: imn
 # --
-import '${module}'`(if (eolp) (es7-snippets-semicolon))`
+import '${module}'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

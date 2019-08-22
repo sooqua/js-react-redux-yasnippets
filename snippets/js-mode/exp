@@ -2,4 +2,4 @@
 # name: exp
 # key: exp
 # --
-export default $1`(if (eolp) (es7-snippets-semicolon))`
+export default $1`(if (eolp) (js-react-redux-yasnippets-semicolon))`

@@ -2,4 +2,4 @@
 # name: ime
 # key: ime
 # --
-import * as ${2:alias} from '${1:module}'`(if (eolp) (es7-snippets-semicolon))`
+import * as ${2:alias} from '${1:module}'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

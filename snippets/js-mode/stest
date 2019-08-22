@@ -2,16 +2,16 @@
 # name: stest
 # key: stest                       
 # --
-import React from 'react'`(es7-snippets-semicolon)`
-import renderer from 'react-test-renderer'`(es7-snippets-semicolon)`
+import React from 'react'`(js-react-redux-yasnippets-semicolon)`
+import renderer from 'react-test-renderer'`(js-react-redux-yasnippets-semicolon)`
 
-import { ${1:`(es7-snippets-filename-base)`} } from '../$1'`(es7-snippets-semicolon)`
+import { ${1:`(js-react-redux-yasnippets-filename-base)`} } from '../$1'`(js-react-redux-yasnippets-semicolon)`
 
 describe('<$1 />', () => {
- const defaultProps = {}`(es7-snippets-semicolon)`
- const wrapper = renderer.create(<$1 {...defaultProps} />)`(es7-snippets-semicolon)`
+ const defaultProps = {}`(js-react-redux-yasnippets-semicolon)`
+ const wrapper = renderer.create(<$1 {...defaultProps} />)`(js-react-redux-yasnippets-semicolon)`
 
  test('render', () => {
   expect(wrapper).toMatchSnapshot()
- })`(es7-snippets-semicolon)`
-})`(es7-snippets-semicolon)`
+ })`(js-react-redux-yasnippets-semicolon)`
+})`(js-react-redux-yasnippets-semicolon)`

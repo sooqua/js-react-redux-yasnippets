@@ -3,4 +3,4 @@
 # uuid: exports
 # key: exports
 # --
-module.exports = $0`(if (eolp) (es7-snippets-semicolon))`
+module.exports = $0`(if (eolp) (js-react-redux-yasnippets-semicolon))`

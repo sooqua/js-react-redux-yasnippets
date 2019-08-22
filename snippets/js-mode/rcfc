@@ -2,12 +2,12 @@
 # name: Creates a React component class with PropTypes and all lifecycle methods and ES6 module system
 # key: rcfc
 # --
-import React, { Component } from 'react'`(es7-snippets-semicolon)`
-import PropTypes from 'prop-types'`(es7-snippets-semicolon)`
+import React, { Component } from 'react'`(js-react-redux-yasnippets-semicolon)`
+import PropTypes from 'prop-types'`(js-react-redux-yasnippets-semicolon)`
 
-class ${1:`(es7-snippets-filename-base)`} extends Component {
+class ${1:`(js-react-redux-yasnippets-filename-base)`} extends Component {
  constructor(props) {
-  super(props)`(es7-snippets-semicolon)`
+  super(props)`(js-react-redux-yasnippets-semicolon)`
 
  }
 
@@ -44,12 +44,12 @@ class ${1:`(es7-snippets-filename-base)`} extends Component {
    <div>
 
    </div>
-  )`(es7-snippets-semicolon)`
+  )`(js-react-redux-yasnippets-semicolon)`
  }
 }
 
 $1.propTypes = {
 
-}`(es7-snippets-semicolon)`
+}`(js-react-redux-yasnippets-semicolon)`
 
-export default $1`(es7-snippets-semicolon)`
+export default $1`(js-react-redux-yasnippets-semicolon)`

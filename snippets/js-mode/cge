@@ -2,4 +2,4 @@
 # name: Closes out the corresponding console.group()
 # key: cge
 # --
-console.groupEnd()`(if (eolp) (es7-snippets-semicolon))`
+console.groupEnd()`(if (eolp) (js-react-redux-yasnippets-semicolon))`

@@ -2,12 +2,12 @@
 # name: Creates a React component class with ES6 module system
 # key: rcjc                              
 # --
-class ${`(es7-snippets-filename-base)`} extends Component {
+class ${`(js-react-redux-yasnippets-filename-base)`} extends Component {
  render() {
   return (
    <div>
     $0
    </div>
-  )`(es7-snippets-semicolon)`
+  )`(js-react-redux-yasnippets-semicolon)`
  }
 }

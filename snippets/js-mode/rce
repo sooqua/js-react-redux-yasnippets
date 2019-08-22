@@ -2,16 +2,16 @@
 # name: Creates a React component class with ES6 module system
 # key: rce
 # --
-import React, { Component } from 'react'`(es7-snippets-semicolon)`
+import React, { Component } from 'react'`(js-react-redux-yasnippets-semicolon)`
 
-export class ${1:`(es7-snippets-filename-base)`} extends Component {
+export class ${1:`(js-react-redux-yasnippets-filename-base)`} extends Component {
  render() {
   return (
    <div>
     $0
    </div>
-  )`(es7-snippets-semicolon)`
+  )`(js-react-redux-yasnippets-semicolon)`
  }
 }
 
-export default $1`(es7-snippets-semicolon)`
+export default $1`(js-react-redux-yasnippets-semicolon)`

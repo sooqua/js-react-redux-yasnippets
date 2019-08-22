@@ -2,4 +2,4 @@
 # name: Create React context
 # key: rcontext
 # --
-const ${contextName} = React.createContext()`(if (eolp) (es7-snippets-semicolon))`
+const ${contextName} = React.createContext()`(if (eolp) (js-react-redux-yasnippets-semicolon))`

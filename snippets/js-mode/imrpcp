@@ -2,5 +2,5 @@
 # name: imrpcp
 # key: imrpcp
 # --
-import React, { PureComponent } from 'react'`(es7-snippets-semicolon)`
-import PropTypes from 'prop-types'`(es7-snippets-semicolon)`
+import React, { PureComponent } from 'react'`(js-react-redux-yasnippets-semicolon)`
+import PropTypes from 'prop-types'`(js-react-redux-yasnippets-semicolon)`

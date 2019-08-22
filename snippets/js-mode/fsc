@@ -3,14 +3,14 @@
 # key: fsc
 # --
 // @flow
-import * as React from 'react'`(es7-snippets-semicolon)`
+import * as React from 'react'`(js-react-redux-yasnippets-semicolon)`
 type Props = {
  $0
-}`(es7-snippets-semicolon)`
-export const ${`(es7-snippets-filename-base)`} = (props: Props) => {
+}`(js-react-redux-yasnippets-semicolon)`
+export const ${`(js-react-redux-yasnippets-filename-base)`} = (props: Props) => {
  return (
   <div>
 
   </div>
- )`(es7-snippets-semicolon)`
-}`(es7-snippets-semicolon)`
+ )`(js-react-redux-yasnippets-semicolon)`
+}`(js-react-redux-yasnippets-semicolon)`

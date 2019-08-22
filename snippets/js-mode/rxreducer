@@ -4,15 +4,15 @@
 # --
 const initialState = {
 
-}`(es7-snippets-semicolon)`
+}`(js-react-redux-yasnippets-semicolon)`
 
 export default (state = initialState, { type, payload }) => {
     switch (type) {
 
     case ${typeName}:
-        return { ...state, ...payload }`(es7-snippets-semicolon)`
+        return { ...state, ...payload }`(js-react-redux-yasnippets-semicolon)`
 
     default:
-        return state`(es7-snippets-semicolon)`
+        return state`(js-react-redux-yasnippets-semicolon)`
     }
 }

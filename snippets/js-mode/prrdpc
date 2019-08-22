@@ -2,30 +2,30 @@
 # name: Creates a React component class with connected redux, PropTypes and ESNext class fields
 # key: prrdpc
 # --
-import React, { Component } from 'react'`(es7-snippets-semicolon)`
-import PropTypes from 'prop-types'`(es7-snippets-semicolon)`
-import { connect } from 'react-redux'`(es7-snippets-semicolon)`
+import React, { Component } from 'react'`(js-react-redux-yasnippets-semicolon)`
+import PropTypes from 'prop-types'`(js-react-redux-yasnippets-semicolon)`
+import { connect } from 'react-redux'`(js-react-redux-yasnippets-semicolon)`
 
-export class ${1:`(es7-snippets-filename-base)`} extends Component {
+export class ${1:`(js-react-redux-yasnippets-filename-base)`} extends Component {
  static propTypes = {
   ${2:prop}: ${3:PropTypes},
- }`(es7-snippets-semicolon)`
+ }`(js-react-redux-yasnippets-semicolon)`
 
  render() {
   return (
    <div>
     $0
    </div>
-  )`(es7-snippets-semicolon)`
+  )`(js-react-redux-yasnippets-semicolon)`
  }
 }
 
 const mapStateToProps = (state) => ({
 
-})`(es7-snippets-semicolon)`
+})`(js-react-redux-yasnippets-semicolon)`
 
 const mapDispatchToProps = {
 
-}`(es7-snippets-semicolon)`
+}`(js-react-redux-yasnippets-semicolon)`
 
-export default connect(mapStateToProps, mapDispatchToProps)($1)`(es7-snippets-semicolon)`
+export default connect(mapStateToProps, mapDispatchToProps)($1)`(js-react-redux-yasnippets-semicolon)`

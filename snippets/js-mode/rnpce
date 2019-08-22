@@ -2,17 +2,17 @@
 # name: rnpce
 # key: rnpce
 # --
-import React, { PureComponent } from 'react'`(es7-snippets-semicolon)`
-import { Text, View } from 'react-native'`(es7-snippets-semicolon)`
+import React, { PureComponent } from 'react'`(js-react-redux-yasnippets-semicolon)`
+import { Text, View } from 'react-native'`(js-react-redux-yasnippets-semicolon)`
 
-export class ${1:`(es7-snippets-filename-base)`} extends PureComponent {
+export class ${1:`(js-react-redux-yasnippets-filename-base)`} extends PureComponent {
  render() {
   return (
    <View>
     <Text> ${0:textInComponent} </Text>
    </View>
-  )`(es7-snippets-semicolon)`
+  )`(js-react-redux-yasnippets-semicolon)`
  }
 }
 
-export default $1`(es7-snippets-semicolon)`
+export default $1`(js-react-redux-yasnippets-semicolon)`

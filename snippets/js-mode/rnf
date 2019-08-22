@@ -2,15 +2,15 @@
 # name: rnf
 # key: rnf
 # --
-import React from 'react'`(es7-snippets-semicolon)`
-import { View, Text } from 'react-native'`(es7-snippets-semicolon)`
+import React from 'react'`(js-react-redux-yasnippets-semicolon)`
+import { View, Text } from 'react-native'`(js-react-redux-yasnippets-semicolon)`
 
-const ${1:`(es7-snippets-filename-base)`} = () => {
+const ${1:`(js-react-redux-yasnippets-filename-base)`} = () => {
  return (
   <View>
    <Text>$0</Text>
   </View>
- )`(es7-snippets-semicolon)`
+ )`(js-react-redux-yasnippets-semicolon)`
 }
 
-export default $1`(es7-snippets-semicolon)`
+export default $1`(js-react-redux-yasnippets-semicolon)`

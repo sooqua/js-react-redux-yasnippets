@@ -2,14 +2,14 @@
 # name: Creates a React pure component class with ES7 module system
 # key: rpc
 # --
-import React, { PureComponent } from 'react'`(es7-snippets-semicolon)`
+import React, { PureComponent } from 'react'`(js-react-redux-yasnippets-semicolon)`
 
-export default class ${`(es7-snippets-filename-base)`} extends PureComponent {
+export default class ${`(js-react-redux-yasnippets-filename-base)`} extends PureComponent {
  render() {
   return (
    <div>
     $0
    </div>
-  )`(es7-snippets-semicolon)`
+  )`(js-react-redux-yasnippets-semicolon)`
  }
 }

@@ -2,4 +2,4 @@
 # name: Creates and assigns a local variable using state destructing
 # key: cs
 # --
-const { $1 } = this.state`(if (eolp) (es7-snippets-semicolon))`
+const { $1 } = this.state`(if (eolp) (js-react-redux-yasnippets-semicolon))`

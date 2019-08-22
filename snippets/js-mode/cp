@@ -2,4 +2,4 @@
 # name: Creates and assigns a local variable using props destructing
 # key: cp
 # --
-const { $1 } = this.props`(if (eolp) (es7-snippets-semicolon))`
+const { $1 } = this.props`(if (eolp) (js-react-redux-yasnippets-semicolon))`

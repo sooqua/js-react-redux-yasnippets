@@ -2,10 +2,10 @@
 # name: Creates a stateless React component without PropTypes and ES6 module system but with Implicit Return and props
 # key: rsi
 # --
-import React from 'react'`(es7-snippets-semicolon)`
+import React from 'react'`(js-react-redux-yasnippets-semicolon)`
 
-const ${1:`(es7-snippets-filename-base)`} = (props) => (
+const ${1:`(js-react-redux-yasnippets-filename-base)`} = (props) => (
    $0
- )`(es7-snippets-semicolon)`
+ )`(js-react-redux-yasnippets-semicolon)`
 
-export default $1`(es7-snippets-semicolon)`
+export default $1`(js-react-redux-yasnippets-semicolon)`

@@ -2,4 +2,4 @@
 # name: Clears the console
 # key: ccl
 # --
-console.clear()`(if (eolp) (es7-snippets-semicolon))`
+console.clear()`(if (eolp) (js-react-redux-yasnippets-semicolon))`

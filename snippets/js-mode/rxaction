@@ -5,4 +5,4 @@
 export const ${actionName} = (payload) => ({
  type: ${type},
  payload
-})`(es7-snippets-semicolon)`
+})`(js-react-redux-yasnippets-semicolon)`

@@ -2,31 +2,31 @@
 # name: Creates a React Native component class with PropTypes with connected redux and ESNext class fields
 # key: prncr
 # --
-import React, { Component } from 'react'`(es7-snippets-semicolon)`
-import { View, Text } from 'react-native'`(es7-snippets-semicolon)`
-import PropTypes from 'prop-types'`(es7-snippets-semicolon)`
-import { connect } from 'react-redux'`(es7-snippets-semicolon)`
+import React, { Component } from 'react'`(js-react-redux-yasnippets-semicolon)`
+import { View, Text } from 'react-native'`(js-react-redux-yasnippets-semicolon)`
+import PropTypes from 'prop-types'`(js-react-redux-yasnippets-semicolon)`
+import { connect } from 'react-redux'`(js-react-redux-yasnippets-semicolon)`
 
-export class ${1:`(es7-snippets-filename-base)`} extends Component {
+export class ${1:`(js-react-redux-yasnippets-filename-base)`} extends Component {
  static propTypes = {
   ${2:prop}: ${3:PropTypes},
- }`(es7-snippets-semicolon)`
+ }`(js-react-redux-yasnippets-semicolon)`
 
  render() {
   return (
    <View>
     <Text> $2 </Text>
    </View>
-  )`(es7-snippets-semicolon)`
+  )`(js-react-redux-yasnippets-semicolon)`
  }
 }
 
 const mapStateToProps = (state) => ({
 
-})`(es7-snippets-semicolon)`
+})`(js-react-redux-yasnippets-semicolon)`
 
 const mapDispatchToProps = {
 
-}`(es7-snippets-semicolon)`
+}`(js-react-redux-yasnippets-semicolon)`
 
-export default connect(mapStateToProps, mapDispatchToProps)($1)`(es7-snippets-semicolon)`
+export default connect(mapStateToProps, mapDispatchToProps)($1)`(js-react-redux-yasnippets-semicolon)`

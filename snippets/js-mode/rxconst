@@ -2,4 +2,4 @@
 # name: rxconst
 # key: rxconst
 # --
-export const ${1:constantName} = '$1'`(if (eolp) (es7-snippets-semicolon))`
+export const ${1:constantName} = '$1'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

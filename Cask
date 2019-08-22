@@ -1,8 +1,8 @@
 (source melpa)
 
-(package-file "es7-snippets")
+(package-file "js-react-redux-yasnippets")
 
 (development
  (depends-on "yasnippet"))
 
-(files "es7-snippets" "snippets")
+(files "js-react-redux-yasnippets" "snippets")

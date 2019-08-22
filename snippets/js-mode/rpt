@@ -2,6 +2,6 @@
 # name: Creates empty propTypes declaration
 # key: rpt
 # --
-${`(es7-snippets-filename-base)`}.propTypes = {
+${`(js-react-redux-yasnippets-filename-base)`}.propTypes = {
  $0
-}`(es7-snippets-semicolon)`
+}`(js-react-redux-yasnippets-semicolon)`

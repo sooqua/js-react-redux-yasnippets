@@ -2,4 +2,4 @@
 # name: Displays a message in the console but also displays a blue information icon along with the logged message
 # key: cin
 # --
-console.info(${object})`(if (eolp) (es7-snippets-semicolon))`
+console.info(${object})`(if (eolp) (js-react-redux-yasnippets-semicolon))`

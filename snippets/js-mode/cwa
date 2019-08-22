@@ -2,4 +2,4 @@
 # name: Displays a message in the console but also displays a yellow warning icon along with the logged message
 # key: cwa
 # --
-console.warn(${object})`(if (eolp) (es7-snippets-semicolon))`
+console.warn(${object})`(if (eolp) (js-react-redux-yasnippets-semicolon))`

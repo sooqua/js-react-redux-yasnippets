@@ -2,4 +2,4 @@
 # name: graphql
 # key: graphql
 # --
-import { compose, graphql } from 'react-apollo'`(if (eolp) (es7-snippets-semicolon))`
+import { compose, graphql } from 'react-apollo'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

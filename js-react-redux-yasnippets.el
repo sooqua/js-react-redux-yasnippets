@@ -1,11 +1,11 @@
-;;; es7-snippets.el --- ES7 Yasnippets -*- lexical-binding: t; -*-
+;;; js-react-redux-yasnippets.el --- JavaScript,React,Redux yasnippets -*- lexical-binding: t; -*-
 ;; Copyright (C) 2017-2019 EQuimper
 ;; Copyright (C) 2019 sooqua
 
 ;; Author: EQuimper
 ;; Keywords: lisp
 ;; Version: 0.0.1
-;; Url: https://github.com/sooqua/es7-snippets
+;; Url: https://github.com/sooqua/js-react-redux-yasnippets
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -27,39 +27,39 @@
 ;;; Code:
 (require 'yasnippet)
 
-(setq es7-snippets-dir (file-name-directory (or load-file-name (buffer-file-name))))
+(setq js-react-redux-yasnippets-dir (file-name-directory (or load-file-name (buffer-file-name))))
 
 ;;;###autoload
-(defun es7-snippets-initialize ()
-  (let ((snippets-dir (expand-file-name "snippets" es7-snippets-dir)))
+(defun js-react-redux-yasnippets-initialize ()
+  (let ((snippets-dir (expand-file-name "snippets" js-react-redux-yasnippets-dir)))
     (when (boundp 'yas-snippet-dirs)
       (add-to-list 'yas-snippet-dirs snippets-dir nil #'eq))
     (yas-load-directory snippets-dir)))
 
-(setq es7-snippets-want-semicolon t)
+(setq js-react-redux-yasnippets-want-semicolon t)
 
 ;;;###autoload
-(defun es7-snippets-semicolon ()
-  "Return semicolon if es7-snippets-want-semicolon is t"
-  (when (bound-and-true-p es7-snippets-want-semicolon)
+(defun js-react-redux-yasnippets-semicolon ()
+  "Return semicolon if js-react-redux-yasnippets-want-semicolon is t"
+  (when (bound-and-true-p js-react-redux-yasnippets-want-semicolon)
     ";"))
 
 ;;;###autoload
-(defun es7-snippets-toggle-semicolon ()
+(defun js-react-redux-yasnippets-toggle-semicolon ()
   "Toggle semicolon in js snippets"
   (interactive)
-  (setq es7-snippets-toggle-semicolon
-        (not (bound-and-true-p es7-snippets-want-semicolon))))
+  (setq js-react-redux-yasnippets-toggle-semicolon
+        (not (bound-and-true-p js-react-redux-yasnippets-want-semicolon))))
 
 ;;;###autoload
-(defun es7-snippets-filename-base ()
+(defun js-react-redux-yasnippets-filename-base ()
   (interactive)
   (when (buffer-file-name)
     (capitalize (file-name-base (buffer-file-name)))))
 
 ;;;###autoload
 (with-eval-after-load 'yasnippet
-  (es7-snippets-initialize))
+  (js-react-redux-yasnippets-initialize))
 
-(provide 'es7-snippets)
-;;; es7-snippets.el ends here
+(provide 'js-react-redux-yasnippets)
+;;; js-react-redux-yasnippets.el ends here

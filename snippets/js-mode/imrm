@@ -2,4 +2,4 @@
 # name: imrm
 # key: imrm
 # --
-import React, { memo } from 'react'`(if (eolp) (es7-snippets-semicolon))`
+import React, { memo } from 'react'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

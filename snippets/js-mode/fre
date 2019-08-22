@@ -4,4 +4,4 @@
 # --
 ${array}.forEach(${currentItem} => {
  $0
-})`(es7-snippets-semicolon)`
+})`(js-react-redux-yasnippets-semicolon)`

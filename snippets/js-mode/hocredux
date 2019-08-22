@@ -2,25 +2,25 @@
 # name: hocredux
 # key: hocredux
 # --
-import React from 'react'`(es7-snippets-semicolon)`
-import PropTypes from 'prop-types'`(es7-snippets-semicolon)`
-import { connect } from 'react-redux'`(es7-snippets-semicolon)`
+import React from 'react'`(js-react-redux-yasnippets-semicolon)`
+import PropTypes from 'prop-types'`(js-react-redux-yasnippets-semicolon)`
+import { connect } from 'react-redux'`(js-react-redux-yasnippets-semicolon)`
 
 export const mapStateToProps = state => ({
 
-})`(es7-snippets-semicolon)`
+})`(js-react-redux-yasnippets-semicolon)`
 
 export const mapDispatchToProps = {
 
-}`(es7-snippets-semicolon)`
+}`(js-react-redux-yasnippets-semicolon)`
 
 export const ${1:hocComponentName} = (WrappedComponent) => {
- const hocComponent = ({ ...props }) => <WrappedComponent {...props} />`(es7-snippets-semicolon)`
+ const hocComponent = ({ ...props }) => <WrappedComponent {...props} />`(js-react-redux-yasnippets-semicolon)`
 
  hocComponent.propTypes = {
- }`(es7-snippets-semicolon)`
+ }`(js-react-redux-yasnippets-semicolon)`
 
- return hocComponent`(es7-snippets-semicolon)`
+ return hocComponent`(js-react-redux-yasnippets-semicolon)`
 }
 
-export default WrapperComponent => connect(mapStateToProps, mapDispatchToProps)($1(WrapperComponent))`(es7-snippets-semicolon)`
+export default WrapperComponent => connect(mapStateToProps, mapDispatchToProps)($1(WrapperComponent))`(js-react-redux-yasnippets-semicolon)`

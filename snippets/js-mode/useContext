@@ -2,4 +2,4 @@
 # name: useContext
 # key: useContext
 # --
-const ${context} = useContext(${contextValue})`(if (eolp) (es7-snippets-semicolon))`
+const ${context} = useContext(${contextValue})`(if (eolp) (js-react-redux-yasnippets-semicolon))`

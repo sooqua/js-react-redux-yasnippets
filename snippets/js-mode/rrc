@@ -2,25 +2,25 @@
 # name: Creates a React component class connected to redux
 # key: rrc
 # --
-import React, { Component } from 'react'`(es7-snippets-semicolon)`
-import { connect } from 'react-redux'`(es7-snippets-semicolon)`
+import React, { Component } from 'react'`(js-react-redux-yasnippets-semicolon)`
+import { connect } from 'react-redux'`(js-react-redux-yasnippets-semicolon)`
 
 function mapStateToProps(state) {
  return {
 
- }`(es7-snippets-semicolon)`
+ }`(js-react-redux-yasnippets-semicolon)`
 }
 
-class ${1:`(es7-snippets-filename-base)`} extends Component {
+class ${1:`(js-react-redux-yasnippets-filename-base)`} extends Component {
  render() {
   return (
    <div>
     $0
    </div>
-  )`(es7-snippets-semicolon)`
+  )`(js-react-redux-yasnippets-semicolon)`
  }
 }
 
 export default connect(
  mapStateToProps,
-)($1)`(es7-snippets-semicolon)`
+)($1)`(js-react-redux-yasnippets-semicolon)`

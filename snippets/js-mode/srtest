@@ -2,22 +2,22 @@
 # name: Create test component
 # key: srtest
 # --
-import React from 'react'`(es7-snippets-semicolon)`
-import renderer from 'react-test-renderer'`(es7-snippets-semicolon)`
-import { Provider } from 'react-redux'`(es7-snippets-semicolon)`
+import React from 'react'`(js-react-redux-yasnippets-semicolon)`
+import renderer from 'react-test-renderer'`(js-react-redux-yasnippets-semicolon)`
+import { Provider } from 'react-redux'`(js-react-redux-yasnippets-semicolon)`
 
-import store from 'src/store'`(es7-snippets-semicolon)`
-import { ${1:`(es7-snippets-filename-base)`} } from '../$1'`(es7-snippets-semicolon)`
+import store from 'src/store'`(js-react-redux-yasnippets-semicolon)`
+import { ${1:`(js-react-redux-yasnippets-filename-base)`} } from '../$1'`(js-react-redux-yasnippets-semicolon)`
 
 describe('<$1 />', () => {
- const defaultProps = {}`(es7-snippets-semicolon)`
+ const defaultProps = {}`(js-react-redux-yasnippets-semicolon)`
  const wrapper = renderer.create(
   <Provider store={store}>
    <$1 {...defaultProps} />
   </Provider>,
- )`(es7-snippets-semicolon)`
+ )`(js-react-redux-yasnippets-semicolon)`
 
  test('render', () => {
-  expect(wrapper).toMatchSnapshot()`(es7-snippets-semicolon)`
- })`(es7-snippets-semicolon)`
-})`(es7-snippets-semicolon)`
+  expect(wrapper).toMatchSnapshot()`(js-react-redux-yasnippets-semicolon)`
+ })`(js-react-redux-yasnippets-semicolon)`
+})`(js-react-redux-yasnippets-semicolon)`

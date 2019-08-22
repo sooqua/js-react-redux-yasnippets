@@ -2,4 +2,4 @@
 # name: Forward ref statement used inside component
 # key: fref
 # --
-const ref = React.createRef()`(if (eolp) (es7-snippets-semicolon))`
+const ref = React.createRef()`(if (eolp) (js-react-redux-yasnippets-semicolon))`

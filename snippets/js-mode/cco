@@ -2,4 +2,4 @@
 # name: Writes the the number of times that count() has been invoked at the same line and with the same label
 # key: cco
 # --
-console.count(${label})`(if (eolp) (es7-snippets-semicolon))`
+console.count(${label})`(if (eolp) (js-react-redux-yasnippets-semicolon))`

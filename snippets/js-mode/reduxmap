@@ -4,8 +4,8 @@
 # --
 const mapStateToProps = (state) => ({
  $0
-})`(es7-snippets-semicolon)`
+})`(js-react-redux-yasnippets-semicolon)`
 
 const mapDispatchToProps = {
 
-}`(es7-snippets-semicolon)`
+}`(js-react-redux-yasnippets-semicolon)`

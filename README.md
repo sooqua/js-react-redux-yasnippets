@@ -1,4 +1,4 @@
-# es7-snippets
+# js-react-redux-yasnippets
 
 ## v0.0.1
 Rewrote ES7 *React/Redux/GraphQL/React-Native snippets*

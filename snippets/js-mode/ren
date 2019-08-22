@@ -7,5 +7,5 @@ render() {
   <div>
    $0
   </div>
- )`(es7-snippets-semicolon)`
+ )`(js-react-redux-yasnippets-semicolon)`
 }

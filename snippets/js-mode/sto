@@ -4,4 +4,4 @@
 # --
 setTimeout(() => {
  $0
-}, ${delayInMS})`(es7-snippets-semicolon)`
+}, ${delayInMS})`(js-react-redux-yasnippets-semicolon)`

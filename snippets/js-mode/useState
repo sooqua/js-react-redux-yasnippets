@@ -2,4 +2,4 @@
 # name: useState
 # key: useState
 # --
-const [${1:state}, set$1] = useState(${2:initialState})`(if (eolp) (es7-snippets-semicolon))`
+const [${1:state}, set$1] = useState(${2:initialState})`(if (eolp) (js-react-redux-yasnippets-semicolon))`

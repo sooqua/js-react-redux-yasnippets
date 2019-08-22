@@ -3,12 +3,12 @@
 # key: rfc
 # uuid: rfc
 # --
-import React from 'react'`(es7-snippets-semicolon)`
+import React from 'react'`(js-react-redux-yasnippets-semicolon)`
 
-export default function ${`(es7-snippets-filename-base)`}() {
+export default function ${`(js-react-redux-yasnippets-filename-base)`}() {
  return (
   <div>
    $0
   </div>
- )`(es7-snippets-semicolon)`
+ )`(js-react-redux-yasnippets-semicolon)`
 }

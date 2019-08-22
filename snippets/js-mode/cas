@@ -2,4 +2,4 @@
 # name: If the specified expression is false, the message is written to the console along with a stack trace
 # key: cas
 # --
-console.assert(${expression}, ${object})`(if (eolp) (es7-snippets-semicolon))`
+console.assert(${expression}, ${object})`(if (eolp) (js-react-redux-yasnippets-semicolon))`

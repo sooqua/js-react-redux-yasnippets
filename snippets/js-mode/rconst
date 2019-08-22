@@ -3,9 +3,9 @@
 # key: rconst
 # --
 constructor(props) {
- super(props)`(es7-snippets-semicolon)`
+ super(props)`(js-react-redux-yasnippets-semicolon)`
 
  this.state = {
   $0
- }`(es7-snippets-semicolon)`
+ }`(js-react-redux-yasnippets-semicolon)`
 }

@@ -2,4 +2,4 @@
 # name: exd
 # key: exd
 # --
-export { $2 } from '${1:module}'`(if (eolp) (es7-snippets-semicolon))`
+export { $2 } from '${1:module}'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

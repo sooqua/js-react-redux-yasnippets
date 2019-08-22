@@ -2,4 +2,4 @@
 # name: ima
 # key: ima
 # --
-import { ${2:originalName} as ${3:alias} } from '${1:module}'`(if (eolp) (es7-snippets-semicolon))`
+import { ${2:originalName} as ${3:alias} } from '${1:module}'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

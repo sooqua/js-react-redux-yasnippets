@@ -2,4 +2,4 @@
 # name: redux
 # key: redux
 # --
-import { connect } from 'react-redux'`(if (eolp) (es7-snippets-semicolon))`
+import { connect } from 'react-redux'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

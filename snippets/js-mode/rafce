@@ -2,14 +2,14 @@
 # name: Creates a React Arrow Function Component with ES7 module system
 # key: rafce
 # --
-import React from 'react'`(es7-snippets-semicolon)`
+import React from 'react'`(js-react-redux-yasnippets-semicolon)`
 
-const ${1:`(es7-snippets-filename-base)`} = () => {
+const ${1:`(js-react-redux-yasnippets-filename-base)`} = () => {
  return (
   <div>
    $0
   </div>
- )`(es7-snippets-semicolon)`
+ )`(js-react-redux-yasnippets-semicolon)`
 }
 
-export default $1`(es7-snippets-semicolon)`
+export default $1`(js-react-redux-yasnippets-semicolon)`

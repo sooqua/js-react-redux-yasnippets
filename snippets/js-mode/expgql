@@ -4,4 +4,4 @@
 # --
 export default compose(
     graphql(${2:queryOrMutation}, { name: ${3:name} }),
-)($1)`(es7-snippets-semicolon)`
+)($1)`(js-react-redux-yasnippets-semicolon)`

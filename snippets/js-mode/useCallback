@@ -7,4 +7,4 @@ useCallback(
   ${callback}
  },
  [${input}],
-)`(es7-snippets-semicolon)`
+)`(js-react-redux-yasnippets-semicolon)`

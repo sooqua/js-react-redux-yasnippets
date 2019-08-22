@@ -2,4 +2,4 @@
 # name: Displays a message in the console
 # key: clg
 # --
-console.log($0)`(if (eolp) (es7-snippets-semicolon))`
+console.log($0)`(if (eolp) (js-react-redux-yasnippets-semicolon))`

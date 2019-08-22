@@ -2,14 +2,14 @@
 # name: Creates a stateless React component as a named function without PropTypes
 # key: rsf
 # --
-import React from 'react'`(es7-snippets-semicolon)`
+import React from 'react'`(js-react-redux-yasnippets-semicolon)`
 
-function ${1:`(es7-snippets-filename-base)`}(props) {
+function ${1:`(js-react-redux-yasnippets-filename-base)`}(props) {
  return (
   <div>
 
   </div>
- )`(es7-snippets-semicolon)`
+ )`(js-react-redux-yasnippets-semicolon)`
 
 
 export default $1(props) {
@@ -17,5 +17,5 @@ export default $1(props) {
   <div>
 
   </div>
- )`(es7-snippets-semicolon)`
-`(es7-snippets-semicolon)`
+ )`(js-react-redux-yasnippets-semicolon)`
+`(js-react-redux-yasnippets-semicolon)`

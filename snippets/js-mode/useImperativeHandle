@@ -8,4 +8,4 @@ useImperativeHandle(
   ${handler}
  },
  [${input}],
-)`(es7-snippets-semicolon)`
+)`(js-react-redux-yasnippets-semicolon)`

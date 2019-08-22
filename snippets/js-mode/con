@@ -3,6 +3,6 @@
 # key: con
 # --
 constructor(props) {
- super(props)`(es7-snippets-semicolon)`
+ super(props)`(js-react-redux-yasnippets-semicolon)`
  $0
 }

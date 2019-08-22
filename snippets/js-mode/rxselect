@@ -2,6 +2,6 @@
 # name: rxselect
 # key: rxselect
 # --
-import { createSelector } from 'reselect'`(es7-snippets-semicolon)`
+import { createSelector } from 'reselect'`(js-react-redux-yasnippets-semicolon)`
 
-export const ${selectorName} = state => state.${selector}`(es7-snippets-semicolon)`
+export const ${selectorName} = state => state.${selector}`(js-react-redux-yasnippets-semicolon)`

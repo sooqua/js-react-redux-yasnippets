@@ -2,4 +2,4 @@
 # name: useMemo
 # key: useMemo
 # --
-useMemo(() => ${function}, ${input})`(if (eolp) (es7-snippets-semicolon))`
+useMemo(() => ${function}, ${input})`(if (eolp) (js-react-redux-yasnippets-semicolon))`

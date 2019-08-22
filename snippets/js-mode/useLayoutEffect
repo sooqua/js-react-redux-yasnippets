@@ -6,5 +6,5 @@ useLayoutEffect(() => {
     ${effect}
     return () => {
         ${cleanup}
-    }`(es7-snippets-semicolon)`
-}, [${input}])`(es7-snippets-semicolon)`
+    }`(js-react-redux-yasnippets-semicolon)`
+}, [${input}])`(js-react-redux-yasnippets-semicolon)`

@@ -4,4 +4,4 @@
 # --
 setInterval(() => {
  $0
-}, ${intervalInMS})`(es7-snippets-semicolon)`
+}, ${intervalInMS})`(js-react-redux-yasnippets-semicolon)`

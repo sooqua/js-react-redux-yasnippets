@@ -2,4 +2,4 @@
 # name: imrc
 # key: imrc
 # --
-import React, { Component } from 'react'`(if (eolp) (es7-snippets-semicolon))`
+import React, { Component } from 'react'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

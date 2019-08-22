@@ -2,4 +2,4 @@
 # name: imrd
 # key: imrd
 # --
-import ReactDOM from 'react-dom'`(if (eolp) (es7-snippets-semicolon))`
+import ReactDOM from 'react-dom'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

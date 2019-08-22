@@ -2,12 +2,12 @@
 # name: Creates a React Memo Function Component with ES7 module system
 # key: rmc
 # --
-import React, { memo } from 'react'`(es7-snippets-semicolon)`
+import React, { memo } from 'react'`(js-react-redux-yasnippets-semicolon)`
 
-export default memo(function ${`(es7-snippets-filename-base)`}() {
+export default memo(function ${`(js-react-redux-yasnippets-filename-base)`}() {
  return (
   <div>
    $0
   </div>
- )`(es7-snippets-semicolon)`
-})`(es7-snippets-semicolon)`
+ )`(js-react-redux-yasnippets-semicolon)`
+})`(js-react-redux-yasnippets-semicolon)`

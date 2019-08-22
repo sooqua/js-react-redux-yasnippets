@@ -2,15 +2,15 @@
 # name: rnpc
 # key: rnpc
 # --
-import React, { PureComponent } from 'react'`(es7-snippets-semicolon)`
-import { Text, View } from 'react-native'`(es7-snippets-semicolon)`
+import React, { PureComponent } from 'react'`(js-react-redux-yasnippets-semicolon)`
+import { Text, View } from 'react-native'`(js-react-redux-yasnippets-semicolon)`
 
-export default class ${`(es7-snippets-filename-base)`} extends PureComponent {
+export default class ${`(js-react-redux-yasnippets-filename-base)`} extends PureComponent {
  render() {
   return (
    <View>
     <Text> ${0:textInComponent} </Text>
    </View>
-  )`(es7-snippets-semicolon)`
+  )`(js-react-redux-yasnippets-semicolon)`
  }
 }

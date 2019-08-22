@@ -2,4 +2,4 @@
 # name: useRef
 # key: useRef
 # --
-const ${ref} = useRef(${initialValue})`(if (eolp) (es7-snippets-semicolon))`
+const ${ref} = useRef(${initialValue})`(if (eolp) (js-react-redux-yasnippets-semicolon))`
