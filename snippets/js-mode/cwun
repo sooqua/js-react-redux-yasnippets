@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Invoked immediately before a component is unmounted from the DOM
 # key: cwun
+# uuid: cwun
 # --
 componentWillUnmount() {
  $0

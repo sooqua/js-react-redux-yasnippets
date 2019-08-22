@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: hocredux
 # key: hocredux
+# uuid: hocredux
 # --
 import React from 'react'`(js-react-redux-yasnippets-semicolon)`
 import PropTypes from 'prop-types'`(js-react-redux-yasnippets-semicolon)`

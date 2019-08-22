@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates empty propTypes declaration
 # key: rpt
+# uuid: rpt
 # --
 ${`(js-react-redux-yasnippets-filename-base)`}.propTypes = {
  $0

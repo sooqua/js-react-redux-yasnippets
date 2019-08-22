@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Creates and assigns a local variable using array destructing
 # key: dar
+# uuid: dar
 # --
 const [${propertyName}] = ${arrayToDescruct}`(if (eolp) (js-react-redux-yasnippets-semicolon))`

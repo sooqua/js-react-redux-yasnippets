@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Access component's props
 # key: props
+# uuid: props
 # --
 this.props.$0

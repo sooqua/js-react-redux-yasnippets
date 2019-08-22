@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: useImperativeHandle
 # key: useImperativeHandle
+# uuid: useImperativeHandle
 # --
 useImperativeHandle(
  ${ref},

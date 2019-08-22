@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Export default function in ES7 syntax
 # key: edf
+# uuid: edf
 # --
 export default (${params}) => {
  $0

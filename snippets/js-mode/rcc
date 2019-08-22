@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a React component class with ES7 module system
 # key: rcc
+# uuid: rcc
 # --
 import React, { Component } from 'react'`(js-react-redux-yasnippets-semicolon)`
 

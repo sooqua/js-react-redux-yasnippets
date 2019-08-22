@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Testing `test` block
 # key: test
+# uuid: test
 # --
 test('should $1', () => {
  $0

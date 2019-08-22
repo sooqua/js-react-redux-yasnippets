@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: imrc
 # key: imrc
+# uuid: imrc
 # --
 import React, { Component } from 'react'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

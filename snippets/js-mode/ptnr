@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Number prop type required
 # key: ptnr
+# uuid: ptnr
 # --
 PropTypes.number.isRequired,$0

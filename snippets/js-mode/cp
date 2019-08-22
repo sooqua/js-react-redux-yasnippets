@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Creates and assigns a local variable using props destructing
 # key: cp
+# uuid: cp
 # --
 const { $1 } = this.props`(if (eolp) (js-react-redux-yasnippets-semicolon))`

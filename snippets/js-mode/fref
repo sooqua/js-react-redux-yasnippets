@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Forward ref statement used inside component
 # key: fref
+# uuid: fref
 # --
 const ref = React.createRef()`(if (eolp) (js-react-redux-yasnippets-semicolon))`

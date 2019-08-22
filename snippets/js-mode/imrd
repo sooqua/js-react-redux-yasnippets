@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: imrd
 # key: imrd
+# uuid: imrd
 # --
 import ReactDOM from 'react-dom'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

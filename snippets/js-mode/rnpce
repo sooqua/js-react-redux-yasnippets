@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: rnpce
 # key: rnpce
+# uuid: rnpce
 # --
 import React, { PureComponent } from 'react'`(js-react-redux-yasnippets-semicolon)`
 import { Text, View } from 'react-native'`(js-react-redux-yasnippets-semicolon)`

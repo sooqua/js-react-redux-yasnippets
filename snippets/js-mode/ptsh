@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: An object taking on a particular shape
 # key: ptsh
+# uuid: ptsh
 # --
 PropTypes.shape({
  $0

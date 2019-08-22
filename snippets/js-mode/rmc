@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a React Memo Function Component with ES7 module system
 # key: rmc
+# uuid: rmc
 # --
 import React, { memo } from 'react'`(js-react-redux-yasnippets-semicolon)`
 

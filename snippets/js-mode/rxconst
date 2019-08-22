@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: rxconst
 # key: rxconst
+# uuid: rxconst
 # --
 export const ${1:constantName} = '$1'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

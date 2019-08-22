@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 # name: module.exports = ...
-# uuid: exports
 # key: exports
+# uuid: exports
 # --
 module.exports = $0`(if (eolp) (js-react-redux-yasnippets-semicolon))`

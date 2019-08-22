@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: snrtest
 # key: snrtest
+# uuid: snrtest
 # --
 import 'react-native'`(js-react-redux-yasnippets-semicolon)`
 import React from 'react'`(js-react-redux-yasnippets-semicolon)`

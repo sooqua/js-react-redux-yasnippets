@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Displays a message in the console but also displays a blue information icon along with the logged message
 # key: cin
+# uuid: cin
 # --
 console.info(${object})`(if (eolp) (js-react-redux-yasnippets-semicolon))`

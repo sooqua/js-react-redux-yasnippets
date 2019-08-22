@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: stest
-# key: stest                       
+# key: stest # uuid: stest
+                      
 # --
 import React from 'react'`(js-react-redux-yasnippets-semicolon)`
 import renderer from 'react-test-renderer'`(js-react-redux-yasnippets-semicolon)`

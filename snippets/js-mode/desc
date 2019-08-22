@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Testing `describe` block
 # key: desc
+# uuid: desc
 # --
 describe('$1', () => {
  $0

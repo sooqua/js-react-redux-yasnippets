@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: rxselect
 # key: rxselect
+# uuid: rxselect
 # --
 import { createSelector } from 'reselect'`(js-react-redux-yasnippets-semicolon)`
 

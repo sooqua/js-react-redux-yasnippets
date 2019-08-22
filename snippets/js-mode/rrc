@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a React component class connected to redux
 # key: rrc
+# uuid: rrc
 # --
 import React, { Component } from 'react'`(js-react-redux-yasnippets-semicolon)`
 import { connect } from 'react-redux'`(js-react-redux-yasnippets-semicolon)`

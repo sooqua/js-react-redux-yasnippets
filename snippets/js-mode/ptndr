@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Anything that can be rendered: numbers, strings, elements or an array required
 # key: ptndr
+# uuid: ptndr
 # --
 PropTypes.node.isRequired,$0

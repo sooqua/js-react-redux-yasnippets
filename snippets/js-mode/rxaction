@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: rxaction
 # key: rxaction
+# uuid: rxaction
 # --
 export const ${actionName} = (payload) => ({
  type: ${type},

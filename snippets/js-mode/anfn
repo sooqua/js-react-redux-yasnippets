@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates an anonymous function in ES7 syntax
 # key: anfn
+# uuid: anfn
 # --
 (${params}) => {
  $0

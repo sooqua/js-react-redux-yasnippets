@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: useCallback
 # key: useCallback
+# uuid: useCallback
 # --
 useCallback(
  () => {

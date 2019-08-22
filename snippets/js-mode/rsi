@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a stateless React component without PropTypes and ES6 module system but with Implicit Return and props
 # key: rsi
+# uuid: rsi
 # --
 import React from 'react'`(js-react-redux-yasnippets-semicolon)`
 

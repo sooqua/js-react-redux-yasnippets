@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: useRef
 # key: useRef
+# uuid: useRef
 # --
 const ${ref} = useRef(${initialValue})`(if (eolp) (js-react-redux-yasnippets-semicolon))`

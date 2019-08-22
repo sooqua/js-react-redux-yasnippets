@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Console time wrapper
 # key: ctm
+# uuid: ctm
 # --
 console.time('$0')`(if (eolp) (js-react-redux-yasnippets-semicolon))`

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: cmmb
 # key: cmmb
+# uuid: cmmb
 # expand-env: ((yas-indent-line 'fixed))
 # --
 /**

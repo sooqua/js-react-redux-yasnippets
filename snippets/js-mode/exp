@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: exp
 # key: exp
+# uuid: exp
 # --
 export default $1`(if (eolp) (js-react-redux-yasnippets-semicolon))`

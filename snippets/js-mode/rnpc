@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: rnpc
 # key: rnpc
+# uuid: rnpc
 # --
 import React, { PureComponent } from 'react'`(js-react-redux-yasnippets-semicolon)`
 import { Text, View } from 'react-native'`(js-react-redux-yasnippets-semicolon)`

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: const
 # key: const
+# uuid: const
 # --
 const ${1:name} = $0`(js-react-redux-yasnippets-semicolon)`

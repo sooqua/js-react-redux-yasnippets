@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: An array of a certain type
 # key: ptao
+# uuid: ptao
 # --
 PropTypes.arrayOf($1),$0

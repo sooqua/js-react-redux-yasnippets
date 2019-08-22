@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: graphql
 # key: graphql
+# uuid: graphql
 # --
 import { compose, graphql } from 'react-apollo'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

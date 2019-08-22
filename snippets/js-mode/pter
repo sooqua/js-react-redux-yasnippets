@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Prop type limited to specific values by treating it as an enum required
 # key: pter
+# uuid: pter
 # --
 PropTypes.oneOf(['$1']).isRequired,$0

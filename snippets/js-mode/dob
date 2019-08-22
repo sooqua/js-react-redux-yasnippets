@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Creates and assigns a local variable using object destructing
 # key: dob
+# uuid: dob
 # --
 const {${propertyName}} = ${objectToDescruct}`(js-react-redux-yasnippets-semicolon)`

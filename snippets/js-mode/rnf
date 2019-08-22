@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: rnf
 # key: rnf
+# uuid: rnf
 # --
 import React from 'react'`(js-react-redux-yasnippets-semicolon)`
 import { View, Text } from 'react-native'`(js-react-redux-yasnippets-semicolon)`

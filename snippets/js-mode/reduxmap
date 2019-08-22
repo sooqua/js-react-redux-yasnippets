@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: reduxmap
 # key: reduxmap
+# uuid: reduxmap
 # --
 const mapStateToProps = (state) => ({
  $0

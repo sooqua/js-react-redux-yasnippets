@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a method inside a class in ES7 syntax
 # key: met
+# uuid: met
 # --
 ${methodName} = (${params}) => {
  $0

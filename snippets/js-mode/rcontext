@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Create React context
 # key: rcontext
+# uuid: rcontext
 # --
 const ${contextName} = React.createContext()`(if (eolp) (js-react-redux-yasnippets-semicolon))`

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Func prop type
 # key: ptf
+# uuid: ptf
 # --
 PropTypes.func,$0

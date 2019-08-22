@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Object prop type required
 # key: ptor
+# uuid: ptor
 # --
 PropTypes.object.isRequired,$0

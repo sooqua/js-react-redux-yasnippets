@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: rxreducer
 # key: rxreducer
+# uuid: rxreducer
 # --
 const initialState = {
 

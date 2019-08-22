@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a React component class with PropTypes and ES6 module system
 # key: rccp
+# uuid: rccp
 # --
 import React, { Component } from 'react'`(js-react-redux-yasnippets-semicolon)`
 import PropTypes from 'prop-types'`(js-react-redux-yasnippets-semicolon)`

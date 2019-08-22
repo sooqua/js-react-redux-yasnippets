@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: React element prop type
 # key: ptel
+# uuid: ptel
 # --
 PropTypes.element,$0

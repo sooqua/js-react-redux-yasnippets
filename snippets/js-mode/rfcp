@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a React Functional Component with ES7 module system with PropTypes
 # key: rfcp
+# uuid: rfcp
 # --
 import React from 'react'`(js-react-redux-yasnippets-semicolon)`
 import PropTypes from 'prop-types'`(js-react-redux-yasnippets-semicolon)`

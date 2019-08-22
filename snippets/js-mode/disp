@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Adds the redux mapDispatchToProps function
 # key: disp
+# uuid: disp
 # --
 function mapDispatchToProps(dispatch) {
  return {

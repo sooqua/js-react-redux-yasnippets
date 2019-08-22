@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: An object that could be one of many types required
 # key: ptetr
+# uuid: ptetr
 # --
 PropTypes.oneOfType([
  $0

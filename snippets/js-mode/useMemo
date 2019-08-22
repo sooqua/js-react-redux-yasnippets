@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: useMemo
 # key: useMemo
+# uuid: useMemo
 # --
 useMemo(() => ${function}, ${input})`(if (eolp) (js-react-redux-yasnippets-semicolon))`

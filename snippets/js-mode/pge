@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a getter property inside a class in ES7 syntax
 # key: pge
+# uuid: pge
 # --
 get ${propertyName}() {
  return this.$0

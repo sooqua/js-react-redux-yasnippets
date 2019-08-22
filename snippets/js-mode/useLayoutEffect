@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: useLayoutEffect
 # key: useLayoutEffect
+# uuid: useLayoutEffect
 # --
 useLayoutEffect(() => {
     ${effect}

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Iterating over property names of iterable objects
 # key: fof
+# uuid: fof
 # --
 for(let ${item} of ${object}) {
  $0

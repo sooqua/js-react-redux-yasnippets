@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: redux
 # key: redux
+# uuid: redux
 # --
 import { connect } from 'react-redux'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

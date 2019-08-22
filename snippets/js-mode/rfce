@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a React Functional Component with ES7 module system
 # key: rfce
+# uuid: rfce
 # --
 import React from 'react'`(js-react-redux-yasnippets-semicolon)`
 

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Number prop type
 # key: ptn
+# uuid: ptn
 # --
 PropTypes.number,$0

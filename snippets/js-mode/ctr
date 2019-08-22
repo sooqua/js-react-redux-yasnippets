@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Prints a stack trace from the point where the method was called
 # key: ctr
+# uuid: ctr
 # --
 console.trace(${object})`(if (eolp) (js-react-redux-yasnippets-semicolon))`

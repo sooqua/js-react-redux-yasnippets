@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: String prop type required
 # key: ptsr
+# uuid: ptsr
 # --
 PropTypes.string.isRequired,$0

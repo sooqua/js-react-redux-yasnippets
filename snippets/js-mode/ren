@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Basic render
 # key: ren
+# uuid: ren
 # --
 render() {
  return (

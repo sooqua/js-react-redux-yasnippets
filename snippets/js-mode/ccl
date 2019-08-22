@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Clears the console
 # key: ccl
+# uuid: ccl
 # --
 console.clear()`(if (eolp) (js-react-redux-yasnippets-semicolon))`

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: imrmp
 # key: imrmp
+# uuid: imrmp
 # --
 import React, { memo } from 'react'`(js-react-redux-yasnippets-semicolon)`
 import PropTypes from 'prop-types'`(js-react-redux-yasnippets-semicolon)`

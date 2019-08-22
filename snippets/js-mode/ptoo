@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: An object with property values of a certain type
 # key: ptoo
+# uuid: ptoo
 # --
 PropTypes.objectOf($1),$0

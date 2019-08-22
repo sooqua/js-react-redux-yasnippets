@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a React Arrow Function Component with ES7 module system with PropTypes
 # key: rafcp
+# uuid: rafcp
 # --
 import React from 'react'`(js-react-redux-yasnippets-semicolon)`
 import PropTypes from 'prop-types'`(js-react-redux-yasnippets-semicolon)`

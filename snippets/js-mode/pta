@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Array prop type
 # key: pta
+# uuid: pta
 # --
 PropTypes.array,$0

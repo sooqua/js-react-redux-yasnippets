@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: imd
 # key: imd
+# uuid: imd
 # --
 import { $2 } from '${1:module}'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

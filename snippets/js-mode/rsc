@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a React pure component class with PropTypes and ES6 module system
 # key: rsc
+# uuid: rsc
 # --
 import React from 'react'`(js-react-redux-yasnippets-semicolon)`
 

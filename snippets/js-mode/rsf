@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a stateless React component as a named function without PropTypes
 # key: rsf
+# uuid: rsf
 # --
 import React from 'react'`(js-react-redux-yasnippets-semicolon)`
 

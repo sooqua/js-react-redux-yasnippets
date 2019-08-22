@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Create test component
 # key: srtest
+# uuid: srtest
 # --
 import React from 'react'`(js-react-redux-yasnippets-semicolon)`
 import renderer from 'react-test-renderer'`(js-react-redux-yasnippets-semicolon)`

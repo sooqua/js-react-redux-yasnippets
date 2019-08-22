@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Invoked before rendering when new props or state are being received
 # key: scu
+# uuid: scu
 # --
 shouldComponentUpdate(nextProps, nextState) {
  $0

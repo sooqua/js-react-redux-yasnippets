@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Object prop type
 # key: pto
+# uuid: pto
 # --
 PropTypes.object,$0

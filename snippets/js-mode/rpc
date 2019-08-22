@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a React pure component class with ES7 module system
 # key: rpc
+# uuid: rpc
 # --
 import React, { PureComponent } from 'react'`(js-react-redux-yasnippets-semicolon)`
 

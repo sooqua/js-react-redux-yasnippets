@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a stateless React component as a named function with FlowTypes
 # key: fsf
+# uuid: fsf
 # --
 // @flow
 import * as React from 'react'`(js-react-redux-yasnippets-semicolon)`

@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a named function in ES7 syntax
 # key: nfn
+# uuid: nfn
 # --
 const ${name} = (${params}) => {
  $0

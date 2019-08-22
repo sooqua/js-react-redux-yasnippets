@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a React component class with PropTypes and ESNext class fields
 # key: prccp
+# uuid: prccp
 # --
 import React, { Component } from 'react'`(js-react-redux-yasnippets-semicolon)`
 import PropTypes from 'prop-types'`(js-react-redux-yasnippets-semicolon)`

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Func prop type required
 # key: ptfr
+# uuid: ptfr
 # --
 PropTypes.func.isRequired,$0

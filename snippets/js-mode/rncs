@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: rncs
 # key: rncs
+# uuid: rncs
 # --
 import React, { Component } from 'react'`(js-react-redux-yasnippets-semicolon)`
 import { Text, StyleSheet, View } from 'react-native'`(js-react-redux-yasnippets-semicolon)`

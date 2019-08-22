@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: impt
 # key: impt
+# uuid: impt
 # --
 import PropTypes from 'prop-types'`(if (eolp) (js-react-redux-yasnippets-semicolon))`

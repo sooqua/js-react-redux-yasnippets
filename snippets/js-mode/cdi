@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Prints a JavaScript representation of the specified object
 # key: cdi
+# uuid: cdi
 # --
 console.dir(${object})`(if (eolp) (js-react-redux-yasnippets-semicolon))`

@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: An array of a certain type required
 # key: ptaor
+# uuid: ptaor
 # --
 PropTypes.arrayOf($1).isRequired,$0

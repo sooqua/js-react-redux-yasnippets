@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Writes the the number of times that count() has been invoked at the same line and with the same label
 # key: cco
+# uuid: cco
 # --
 console.count(${label})`(if (eolp) (js-react-redux-yasnippets-semicolon))`

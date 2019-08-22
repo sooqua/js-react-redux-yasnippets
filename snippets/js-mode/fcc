@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a React component class with FlowTypes
 # key: fcc
+# uuid: fcc
 # --
 // @flow
 import * as React from 'react'`(js-react-redux-yasnippets-semicolon)`

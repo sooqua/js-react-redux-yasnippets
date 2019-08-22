@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: rnstyle
 # key: rnstyle
+# uuid: rnstyle
 # --
 const styles = StyleSheet.create({
  $0

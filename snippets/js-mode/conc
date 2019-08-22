@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Adds a default constructor for the class that contains props and context as arguments
 # key: conc
+# uuid: conc
 # --
 constructor(props, context) {
  super(props, context)`(js-react-redux-yasnippets-semicolon)`

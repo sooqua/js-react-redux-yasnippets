@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 # name: Console time end wrapper
 # key: cte
+# uuid: cte
 # --
 console.timeEnd('$0')`(if (eolp) (js-react-redux-yasnippets-semicolon))`

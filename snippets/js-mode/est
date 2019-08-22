@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates empty state object. To be used in a constructor
 # key: est
+# uuid: est
 # --
 state = {
  $0

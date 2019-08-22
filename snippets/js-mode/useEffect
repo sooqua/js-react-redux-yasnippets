@@ -1,6 +1,7 @@
 # -*- mode: snippet -*-
 # name: useEffect
 # key: useEffect
+# uuid: useEffect
 # --
 useEffect(() => {
  ${effect}
