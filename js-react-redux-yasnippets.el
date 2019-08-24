@@ -1,11 +1,13 @@
 ;;; js-react-redux-yasnippets.el --- JavaScript,React,Redux yasnippets -*- lexical-binding: t; -*-
+;; Copyright (C) 2015-2018 xabikos
 ;; Copyright (C) 2017-2019 EQuimper
 ;; Copyright (C) 2019 sooqua
 
-;; Author: EQuimper
-;; Keywords: lisp
+;; Author: sooqua
+;; Keywords: convenience,snippets
 ;; Version: 0.0.1
 ;; Url: https://github.com/sooqua/js-react-redux-yasnippets
+;; Package-Requires: ((emacs "24.3") (yasnippet "0.8.0"))
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -27,39 +29,41 @@
 ;;; Code:
 (require 'yasnippet)
 
-(setq js-react-redux-yasnippets-dir (file-name-directory (or load-file-name (buffer-file-name))))
+(defvar js-react-redux-yasnippets-dir (file-name-directory (or load-file-name (buffer-file-name))))
 
 ;;;###autoload
 (defun js-react-redux-yasnippets-initialize ()
+  "Initialize js-react-redux-yasnippets with yasnippet."
   (let ((snippets-dir (expand-file-name "snippets" js-react-redux-yasnippets-dir)))
     (when (boundp 'yas-snippet-dirs)
       (add-to-list 'yas-snippet-dirs snippets-dir nil #'eq))
     (yas-load-directory snippets-dir)))
 
-(setq js-react-redux-yasnippets-want-semicolon t)
+(defvar js-react-redux-yasnippets-want-semicolon t)
 
 ;;;###autoload
 (defun js-react-redux-yasnippets-semicolon ()
-  "Return semicolon if js-react-redux-yasnippets-want-semicolon is t"
+  "Return semicolon if js-react-redux-yasnippets-want-semicolon is t."
   (when (bound-and-true-p js-react-redux-yasnippets-want-semicolon)
     ";"))
 
 ;;;###autoload
 (defun js-react-redux-yasnippets-toggle-semicolon ()
-  "Toggle semicolon in js snippets"
+  "Toggle semicolon in js snippets."
   (interactive)
-  (setq js-react-redux-yasnippets-toggle-semicolon
+  (setq js-react-redux-yasnippets-want-semicolon
         (not (bound-and-true-p js-react-redux-yasnippets-want-semicolon))))
 
 ;;;###autoload
 (defun js-react-redux-yasnippets-filename-base ()
+  "Return buffer base file name, should not throw errors."
   (interactive)
   (when (buffer-file-name)
     (capitalize (file-name-base (buffer-file-name)))))
 
 ;;;###autoload
-(with-eval-after-load 'yasnippet
-  (js-react-redux-yasnippets-initialize))
+(eval-after-load 'yasnippet
+  '(js-react-redux-yasnippets-initialize))
 
 (provide 'js-react-redux-yasnippets)
 ;;; js-react-redux-yasnippets.el ends here
