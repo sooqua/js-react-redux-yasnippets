@@ -3,4 +3,4 @@
 # key: cte
 # uuid: cte
 # --
-console.timeEnd('$0')`(if (eolp) (js-react-redux-yasnippets-semicolon))`
+console.timeEnd('$1')`(if (eolp) (js-react-redux-yasnippets-semicolon))`

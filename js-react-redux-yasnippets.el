@@ -29,36 +29,38 @@
 (require 'yasnippet)
 
 (defvar js-react-redux-yasnippets-dir (file-name-directory (or load-file-name (buffer-file-name))))
+(defcustom js-react-redux-yasnippets-want-semicolon t)
 
 ;;;###autoload
 (defun js-react-redux-yasnippets-initialize ()
   "Initialize js-react-redux-yasnippets with yasnippet."
   (let ((snippets-dir (expand-file-name "snippets" js-react-redux-yasnippets-dir)))
-    (when (boundp 'yas-snippet-dirs)
-      (add-to-list 'yas-snippet-dirs snippets-dir nil #'eq))
+    (add-to-list 'yas-snippet-dirs snippets-dir nil #'eq)
     (yas-load-directory snippets-dir)))
 
-(defvar js-react-redux-yasnippets-want-semicolon t)
-
-;;;###autoload
 (defun js-react-redux-yasnippets-semicolon ()
-  "Return semicolon if js-react-redux-yasnippets-want-semicolon is t."
-  (when (bound-and-true-p js-react-redux-yasnippets-want-semicolon)
+  "Used in snippets. Return semicolon if js-react-redux-yasnippets-want-semicolon is t."
+  (when js-react-redux-yasnippets-want-semicolon
     ";"))
 
-;;;###autoload
 (defun js-react-redux-yasnippets-toggle-semicolon ()
   "Toggle semicolon in js snippets."
   (interactive)
   (setq js-react-redux-yasnippets-want-semicolon
-        (not (bound-and-true-p js-react-redux-yasnippets-want-semicolon))))
+        (not js-react-redux-yasnippets-want-semicolon)))
 
-;;;###autoload
+(defun js-react-redux-yasnippets-capitalize-first-char (&optional string)
+  "Capitalize only the first character of the input STRING."
+  (when (and string (> (length string) 0))
+    (let ((first-char (substring string nil 1))
+          (rest-str   (substring string 1)))
+      (concat (capitalize first-char) rest-str))))
+
 (defun js-react-redux-yasnippets-filename-base ()
-  "Return buffer base file name, should not throw errors."
+  "Used in snippets. Return buffer base file name, should not throw errors."
   (interactive)
   (when (buffer-file-name)
-    (capitalize (file-name-base (buffer-file-name)))))
+    (js-react-redux-yasnippets-capitalize-first-char (file-name-base (buffer-file-name)))))
 
 ;;;###autoload
 (eval-after-load 'yasnippet

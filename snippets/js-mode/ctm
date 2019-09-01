@@ -3,4 +3,4 @@
 # key: ctm
 # uuid: ctm
 # --
-console.time('$0')`(if (eolp) (js-react-redux-yasnippets-semicolon))`
+console.time('$1')`(if (eolp) (js-react-redux-yasnippets-semicolon))`

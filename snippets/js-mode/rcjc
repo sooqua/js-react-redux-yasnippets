@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: Creates a React component class with ES6 module system
-# key: rcjc # uuid: rcjc
-                             
+# key: rcjc
+# uuid: rcjc
 # --
 class ${`(js-react-redux-yasnippets-filename-base)`} extends Component {
  render() {

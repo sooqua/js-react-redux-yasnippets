@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: Import file from current directory
+# key: impc
+# uuid: impc
+# --
+import ${1:Object} from './$1'`(if (eolp) (js-react-redux-yasnippets-semicolon))`
