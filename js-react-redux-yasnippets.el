@@ -26,24 +26,15 @@
 ;; JavaScript,React,Redux yasnippets
 
 ;;; Code:
-(require 'yasnippet)
 
-(defvar js-react-redux-yasnippets-dir
-  (file-name-directory (or load-file-name (buffer-file-name))))
 (defgroup js-react-redux-yasnippets nil
   "JavaScript,React,Redux yasnippets"
   :group 'yasnippet)
+
 (defcustom js-react-redux-yasnippets-want-semicolon t
   "Whether snippets should insert semicolons as appropriate."
   :type 'boolean
   :group 'js-react-redux-yasnippets)
-
-;;;###autoload
-(defun js-react-redux-yasnippets-initialize ()
-  "Initialize js-react-redux-yasnippets with yasnippet."
-  (let ((snippets-dir (expand-file-name "snippets" js-react-redux-yasnippets-dir)))
-    (add-to-list 'yas-snippet-dirs snippets-dir nil #'eq)
-    (yas-load-directory snippets-dir)))
 
 (defun js-react-redux-yasnippets-semicolon ()
   "Used in snippets. Return semicolon if js-react-redux-yasnippets-want-semicolon is t."
@@ -69,9 +60,21 @@
   (when (buffer-file-name)
     (js-react-redux-yasnippets-capitalize-first-char (file-name-base (buffer-file-name)))))
 
+(defvar js-react-redux-yasnippets-dir
+  (file-name-directory (or load-file-name (buffer-file-name))))
+
+;;;###autoload
+(defun js-react-redux-yasnippets-initialize ()
+  "Initialize js-react-redux-yasnippets with yasnippet."
+  (let ((snippets-dir (expand-file-name "snippets" js-react-redux-yasnippets-dir)))
+    (add-to-list 'yas-snippet-dirs snippets-dir nil #'eq)
+    (yas-load-directory snippets-dir)))
+
 ;;;###autoload
 (eval-after-load 'yasnippet
   '(js-react-redux-yasnippets-initialize))
+
+(require 'yasnippet)
 
 (provide 'js-react-redux-yasnippets)
 ;;; js-react-redux-yasnippets.el ends here
