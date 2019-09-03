@@ -58,7 +58,6 @@
 
 (defun js-react-redux-yasnippets-filename-base ()
   "Used in snippets. Return buffer base file name, should not throw errors."
-  (interactive)
   (when (buffer-file-name)
     (js-react-redux-yasnippets-capitalize-first-char (file-name-base (buffer-file-name)))))
 
