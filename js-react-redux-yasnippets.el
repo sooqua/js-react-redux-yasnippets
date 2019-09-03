@@ -28,11 +28,14 @@
 ;;; Code:
 (require 'yasnippet)
 
-(defvar js-react-redux-yasnippets-dir (file-name-directory (or load-file-name (buffer-file-name))))
+(defvar js-react-redux-yasnippets-dir
+  (file-name-directory (or load-file-name (buffer-file-name))))
+(defgroup js-react-redux-yasnippets nil
+  "JavaScript,React,Redux yasnippets")
 (defcustom js-react-redux-yasnippets-want-semicolon t
   "Whether snippets should insert semicolons as appropriate."
   :type 'boolean
-  :group 'convenience)
+  :group 'js-react-redux-yasnippets)
 
 ;;;###autoload
 (defun js-react-redux-yasnippets-initialize ()
