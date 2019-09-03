@@ -38,11 +38,6 @@
   :type 'boolean
   :group 'js-react-redux-yasnippets)
 
-(defun js-react-redux-yasnippets-semicolon ()
-  "Used in snippets. Return semicolon if js-react-redux-yasnippets-want-semicolon is t."
-  (when js-react-redux-yasnippets-want-semicolon
-    ";"))
-
 (defun js-react-redux-yasnippets-toggle-semicolon ()
   "Toggle semicolon in js snippets."
   (interactive)
@@ -60,6 +55,11 @@
   "Used in snippets. Return buffer base file name, should not throw errors."
   (when (buffer-file-name)
     (js-react-redux-yasnippets-capitalize-first-char (file-name-base (buffer-file-name)))))
+
+(defun js-react-redux-yasnippets-semicolon ()
+  "Used in snippets. Return semicolon if js-react-redux-yasnippets-want-semicolon is t."
+  (when js-react-redux-yasnippets-want-semicolon
+    ";"))
 
 (defvar js-react-redux-yasnippets-dir
   (file-name-directory
