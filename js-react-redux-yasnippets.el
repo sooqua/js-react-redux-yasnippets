@@ -27,6 +27,8 @@
 
 ;;; Code:
 
+(require 'yasnippet)
+
 (defgroup js-react-redux-yasnippets nil
   "JavaScript,React,Redux yasnippets"
   :group 'yasnippet)
@@ -61,7 +63,8 @@
     (js-react-redux-yasnippets-capitalize-first-char (file-name-base (buffer-file-name)))))
 
 (defvar js-react-redux-yasnippets-dir
-  (file-name-directory (or load-file-name (buffer-file-name))))
+  (file-name-directory
+   (file-truename (concat (file-name-sans-extension load-file-name) ".el"))))
 
 ;;;###autoload
 (defun js-react-redux-yasnippets-initialize ()
@@ -73,8 +76,6 @@
 ;;;###autoload
 (eval-after-load 'yasnippet
   '(js-react-redux-yasnippets-initialize))
-
-(require 'yasnippet)
 
 (provide 'js-react-redux-yasnippets)
 ;;; js-react-redux-yasnippets.el ends here
