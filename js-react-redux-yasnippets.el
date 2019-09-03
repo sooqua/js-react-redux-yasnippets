@@ -31,7 +31,8 @@
 (defvar js-react-redux-yasnippets-dir (file-name-directory (or load-file-name (buffer-file-name))))
 (defcustom js-react-redux-yasnippets-want-semicolon t
   "Whether snippets should insert semicolons as appropriate."
-  :type '(boolean))
+  :type 'boolean
+  :group 'convenience)
 
 ;;;###autoload
 (defun js-react-redux-yasnippets-initialize ()
