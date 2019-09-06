@@ -11,6 +11,6 @@ const ${1:`(js-react-redux-yasnippets-filename-base)`} = () => {
    $0
   </div>
  )`(js-react-redux-yasnippets-semicolon)`
-}
+}`(js-react-redux-yasnippets-semicolon)`
 
 export default $1`(js-react-redux-yasnippets-semicolon)`

@@ -12,7 +12,7 @@ const ${1:`(js-react-redux-yasnippets-filename-base)`} = props => {
    $0
   </div>
  )`(js-react-redux-yasnippets-semicolon)`
-}
+}`(js-react-redux-yasnippets-semicolon)`
 
 $1.propTypes = {
 
