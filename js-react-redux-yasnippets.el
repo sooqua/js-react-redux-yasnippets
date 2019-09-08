@@ -27,7 +27,8 @@
 
 ;;; Code:
 
-(require 'yasnippet)
+(eval-and-compile
+  (require 'yasnippet))
 
 (defgroup js-react-redux-yasnippets nil
   "JavaScript,React,Redux yasnippets"
