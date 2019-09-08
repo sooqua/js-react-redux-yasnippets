@@ -27,6 +27,8 @@
 
 ;;; Code:
 
+(require 'yasnippet)
+
 (defgroup js-react-redux-yasnippets nil
   "JavaScript,React,Redux yasnippets"
   :group 'yasnippet)
@@ -67,9 +69,8 @@
 (defun js-react-redux-yasnippets-initialize ()
   "Initialize js-react-redux-yasnippets with yasnippet."
   (let ((snippets-dir (expand-file-name "snippets" js-react-redux-yasnippets-dir)))
-    (when (boundp 'yas-snippet-dirs)
-      (add-to-list 'yas-snippet-dirs snippets-dir nil #'eq)
-      (yas-load-directory snippets-dir))))
+    (add-to-list 'yas-snippet-dirs snippets-dir nil #'eq)
+    (yas-load-directory snippets-dir)))
 
 ;;;###autoload
 (eval-after-load 'yasnippet
