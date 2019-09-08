@@ -64,7 +64,10 @@
 
 (defvar js-react-redux-yasnippets-dir
   (file-name-directory
-   (file-truename (concat (file-name-sans-extension load-file-name) ".el"))))
+   (file-truename
+     (or
+       (and load-file-name (concat (file-name-sans-extension load-file-name) ".el"))
+       buffer-file-name))))
 
 ;;;###autoload
 (defun js-react-redux-yasnippets-initialize ()
