@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Creates a React component class with PropTypes and all lifecycle methods and ES6 module system
 # key: rcfc
 # uuid: rcfc

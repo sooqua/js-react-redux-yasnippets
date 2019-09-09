@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Creates a setter property inside a class in ES7 syntax
 # key: pse
 # uuid: pse

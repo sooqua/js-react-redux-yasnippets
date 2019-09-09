@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Create test component
 # key: srtest
 # uuid: srtest

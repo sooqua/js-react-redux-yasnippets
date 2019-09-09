@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: If the specified expression is false, the message is written to the console along with a stack trace
 # key: cas
 # uuid: cas

@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Creates empty state object. To be used in a constructor
 # key: est
 # uuid: est

@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Creates a React Native component class with PropTypes with connected redux and ESNext class fields
 # key: prncr
 # uuid: prncr

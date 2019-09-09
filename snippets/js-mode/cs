@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Creates and assigns a local variable using state destructing
 # key: cs
 # uuid: cs

@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Prop type limited to specific values by treating it as an enum
 # key: pte
 # uuid: pte

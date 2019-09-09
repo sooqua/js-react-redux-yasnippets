@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Creates an anonymous function in ES7 syntax
 # key: anfn
 # uuid: anfn

@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: An object with property values of a certain type required
 # key: ptoor
 # uuid: ptoor

@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Creates a React component class with ESNext class fields
 # key: prpcp
 # uuid: prpcp

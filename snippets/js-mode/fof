@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Iterating over property names of iterable objects
 # key: fof
 # uuid: fof

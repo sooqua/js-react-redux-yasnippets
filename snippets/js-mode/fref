@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Forward ref statement used inside component
 # key: fref
 # uuid: fref

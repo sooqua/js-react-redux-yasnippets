@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Creates a React component class with constructor, empty state, proptypes and export in ES6 module system without imports
 # key: rwwd
 # uuid: rwwd

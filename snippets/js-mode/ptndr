@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Anything that can be rendered: numbers, strings, elements or an array required
 # key: ptndr
 # uuid: ptndr

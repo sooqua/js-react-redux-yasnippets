@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Invoked once, only on the client (not on the server), immediately after the initial rendering occurs
 # key: cdm
 # uuid: cdm

@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Creates a stateless React component as a named function with PropTypes
 # key: rsfp
 # uuid: rsfp

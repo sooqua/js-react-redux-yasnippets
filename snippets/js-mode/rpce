@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Creates a React pure component class with ES7 module system export
 # key: rpce
 # uuid: rpce

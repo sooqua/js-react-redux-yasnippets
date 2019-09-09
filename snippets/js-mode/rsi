@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Creates a stateless React component without PropTypes and ES6 module system but with Implicit Return and props
 # key: rsi
 # uuid: rsi

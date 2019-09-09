@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Executes the given function after the specified delay in ES7 syntax
 # key: sto
 # uuid: sto

@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Is an instance of a class prop type
 # key: pti
 # uuid: pti

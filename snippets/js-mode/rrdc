@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Creates a React component class connected to redux with dispatch
 # key: rrdc
 # uuid: rrdc

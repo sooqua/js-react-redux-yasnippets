@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: An array of a certain type required
 # key: ptaor
 # uuid: ptaor

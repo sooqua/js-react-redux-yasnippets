@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Creates a React pure component class with PropTypes and ES6 module system
 # key: rncp
 # uuid: rncp

@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Called right before mutations are made (e.g. before the DOM is updated)
 # key: gsbu
 # uuid: gsbu

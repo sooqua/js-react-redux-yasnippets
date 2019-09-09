@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Performs a shallow merge of nextState into current state
 # key: ssf
 # uuid: ssf

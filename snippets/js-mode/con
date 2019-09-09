@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Adds a default constructor for the class that contains props as arguments
 # key: con
 # uuid: con

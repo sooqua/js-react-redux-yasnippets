@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Creates a stateless React component with FlowTypes and ES6 module system
 # key: fsc
 # uuid: fsc

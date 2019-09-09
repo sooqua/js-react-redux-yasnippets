@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Prints a stack trace from the point where the method was called
 # key: ctr
 # uuid: ctr

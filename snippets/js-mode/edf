@@ -1,4 +1,4 @@
-# -*- mode: snippet -*-
+# -*- mode: snippet; require-final-newline: nil -*-
 # name: Export default function in ES7 syntax
 # key: edf
 # uuid: edf
