@@ -5,4 +5,4 @@
 # --
 (${params}) => {
  $0
-}`(js-react-redux-yasnippets-semicolon)`
+}`(if (eolp) (js-react-redux-yasnippets-semicolon))`
