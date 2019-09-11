@@ -3,4 +3,4 @@
 # key: useState
 # uuid: useState
 # --
-const [${1:state}, set$1] = useState(${2:initialState})`(if (eolp) (js-react-redux-yasnippets-semicolon))`
+const [${1:state}, set${1:$(js-react-redux-yasnippets-capitalize-first-char yas-text)}] = useState(${2:initialState})`(if (eolp) (js-react-redux-yasnippets-semicolon))`
