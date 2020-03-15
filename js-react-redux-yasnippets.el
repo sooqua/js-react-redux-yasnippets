@@ -73,7 +73,7 @@
 (defun js-react-redux-yasnippets-initialize ()
   "Initialize js-react-redux-yasnippets with yasnippet."
   (let ((snippets-dir (expand-file-name "snippets" js-react-redux-yasnippets-dir)))
-    (add-to-list 'yas-snippet-dirs snippets-dir nil #'eq)
+    (add-to-list 'yas-snippet-dirs snippets-dir t #'string-equal)
     (yas-load-directory snippets-dir)))
 
 ;;;###autoload
