@@ -1,8 +1,0 @@
-# -*- mode: snippet; require-final-newline: nil -*-
-# name: expgql
-# key: expgql
-# uuid: expgql
-# --
-export default compose(
-    graphql(${2:queryOrMutation}, { name: ${3:name} }),
-)($1)`(js-react-redux-yasnippets-semicolon)`

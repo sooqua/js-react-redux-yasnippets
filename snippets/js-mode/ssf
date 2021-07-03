@@ -1,6 +1,0 @@
-# -*- mode: snippet; require-final-newline: nil -*-
-# name: Performs a shallow merge of nextState into current state
-# key: ssf
-# uuid: ssf
-# --
-this.setState((state, props) => { return { $0 }})`(js-react-redux-yasnippets-semicolon)`

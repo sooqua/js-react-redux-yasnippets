@@ -1,8 +1,8 @@
 # -*- mode: snippet; require-final-newline: nil -*-
-# name: Testing `test` block
+# name: Testing `it` block
 # key: test
 # uuid: test
 # --
-test('should $1', () => {
+it('should $1', () => {
  $0
 })`(js-react-redux-yasnippets-semicolon)`

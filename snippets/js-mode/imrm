@@ -1,6 +1,0 @@
-# -*- mode: snippet; require-final-newline: nil -*-
-# name: imrm
-# key: imrm
-# uuid: imrm
-# --
-import React, { memo } from 'react'`(if (eolp) (js-react-redux-yasnippets-semicolon))`
