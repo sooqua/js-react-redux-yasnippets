@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: typedef
+# key: typed
+# uuid: typed
+# expand-env: ((yas-indent-line 'fixed))
+# --
+/**
+ * @typedef {${1:object}} $2
+ */

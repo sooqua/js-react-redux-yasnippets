@@ -1,0 +1,9 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: typedef-import
+# key: typedi
+# uuid: typedi
+# expand-env: ((yas-indent-line 'fixed))
+# --
+/**
+ * @typedef { import('${1:components/$2}') } $3
+ */
