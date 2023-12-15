@@ -1,6 +1,0 @@
-# -*- mode: snippet; require-final-newline: nil -*-
-# name: import-component
-# key: import
-# uuid: import
-# --
-import $1 from 'components/$2'`(if (eolp) (js-react-redux-yasnippets-semicolon))`
